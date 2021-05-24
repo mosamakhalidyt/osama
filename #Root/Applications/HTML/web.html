@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="F:\osama\osama\icon\fontawesome-free-5.14.0-web\css\all.css">
+    <style>
+        * {
+            margin: auto;
+        }
+        
+        body {
+            background-image: url(Sk.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            width: 1250px;
+            height: 1500px;
+            background-color: rgba(16, 0, 241, 0.247);
+        }
+        
+        .header {
+            width: 1250px;
+            height: 170px;
+            background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+        }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+            background-image: url(bg7.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            float: left;
+            margin-bottom: 10px;
+            margin-left: 30px;
+            margin-top: 10px;
+            border-radius: 100px;
+        }
+        
+        input {
+            float: right;
+            margin-right: 30px;
+            margin-top: 50px;
+            padding: 10px;
+            outline: none;
+        }
+        
+        .nav {
+            width: 1250px;
+            height: 50px;
+            float: left;
+            background: linear-gradient(to right, #cc5333, #23074d);
+        }
+        
+        .nav ul {
+            float: left;
+            margin-left: 300px;
+        }
+        
+        .nav ul li {
+            float: left;
+            list-style: none;
+            margin: 5px;
+            margin-top: 10px;
+        }
+        
+        .nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+            font-family: 'Abril Fatface', cursive;
+        }
+        
+        .nav ul li a:hover {
+            text-decoration: none;
+            color: wheat;
+            font-size: 20px;
+            background-color: none;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px black;
+        }
+        
+        .slider {
+            width: 1250px;
+            height: 450px;
+            border: 1px groove black;
+            background-image: linear-gradient(to top, #f43b47 0%, #0044ff00 100%);
+            margin-top: 20px;
+            box-shadow: 0px 0px 20px black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            position: relative;
+            top: 30px;
+        }
+        /* animation-name: osama;
+             animation-duration: 50s;
+             animation-play-state: running;
+             animation-iteration-count: infinite;}
+         
+
+         @keyframes osama 
+         {
+             0%{background-image: url(img/01.jpeg)}
+             10%{background-image: url(img/7.jpg)}
+             20%{background-image: url(img/4.jpg)}
+             30%{background-image: url(img/B.jpg)}
+             40%{background-image: url(img/Header2.jpg)}
+             50%{background-image: url(img/images.jpg)}
+             60%{background-image: url(img/images\ \(1\).jpg)}
+             70%{background-image: url(img/images\ \(2\).jpg)}
+             80%{background-image: url(img/images\ \(3\).jpg)}
+             95%{background-image: url(img/maxresdefault.jpg)}
+             99%{background-image: url(img/md.jpg)}
+             100%{background-image: url(img/The-Ultimate-List-of-Best-Travel-Movies-1-878x585.jpg.optimal.jpg)}
+         } 
+              */
+        
+        .box {
+            width: 350px;
+            height: 310px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 2px solid black;
+            border-radius: 6px;
+            float: left;
+            margin: 5px;
+            position: relative;
+            top: 20px;
+            left: 10px;
+            transition: 1.5s;
+        }
+        
+        .box:hover {
+            box-shadow: 0px 0px 10px white;
+            transform: scaleX(1.2);
+        }
+        
+        .heading {
+            text-align: center;
+            font-size: 30px;
+            font-family: fantasy;
+            margin-top: 60px;
+            color: white;
+            position: relative;
+            top: 10px;
+        }
+        
+        .boxes {
+            width: 1250px;
+            height: 600;
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo"></div>
+            <input type="search" placeholder="searching.....">
+            <div class="nav">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"> Home</i></a></li>
+                    <li><a href="ok.html"><i class="fas fa-id-card-alt"> Contact</i></a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"> About us</i></a></li>
+                    <li><a href="login.html"><i class="far fa-envelope"> Log In</i></a></li>
+                    <li><a href="formtag.html"><i class="fas fa-registered"> Register </i></a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="slider">
+
+
+            <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="data1/images/13.jpg" alt="13" title="13" id="wows1_0" / width="1250" height="460"></li>
+                        <li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_1" / width="1250" height="460"></li>
+                        <li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_2" / width="1250" height="460"></li>
+                        <li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_3" / width="1250" height="460"></li>
+                        <li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_4" / width="1250" height="460"></li>
+                        <li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5" / width="1250" height="460"></li>
+                        <li><img src="data1/images/7.jpg" alt="7" title="7" id="wows1_6" / width="1250" height="460"></li>
+                        <li><img src="data1/images/8.jpg" alt="8" title="8" id="wows1_7" / width="1250" height="460"></li>
+                        <li><img src="data1/images/9.jpg" alt="9" title="9" id="wows1_8" / width="1250" height="460"></li>
+                        <li><img src="data1/images/10.jpg" alt="10" title="10" id="wows1_9" / width="1250" height="460"></li>
+                        <li>
+                            <a href="http://wowslider.net"><img src="data1/images/11.jpg" alt="bootstrap slideshow" title="11" id="wows1_10" / width="1250" height="460"></a>
+                        </li>
+                        <li><img src="data1/images/12.jpg" alt="12" title="12" id="wows1_11" /></li>
+                    </ul>
+                </div>
+                <div class="ws_bullets">
+                    <div>
+                        <a href="#" title="13"><span><img src="data1/tooltips/13.jpg" alt="13"/ width="1250" height="460">1</span></a>
+                        <a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/ width="1250" height="460">2</span></a>
+                        <a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/ width="1250" height="460">3</span></a>
+                        <a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/ width="1250" height="460">4</span></a>
+                        <a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/ width="1250" height="460">5</span></a>
+                        <a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/ width="1250" height="460">6</span></a>
+                        <a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/ width="1250" height="460">7</span></a>
+                        <a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/ width="1250" height="460">8</span></a>
+                        <a href="#" title="9"><span><img src="data1/tooltips/9.jpg" alt="9"/ width="1250" height="460">9</span></a>
+                        <a href="#" title="10"><span><img src="data1/tooltips/10.jpg" alt="10"/ width="1250" height="460">10</span></a>
+                        <a href="#" title="11"><span><img src="data1/tooltips/11.jpg" alt="11"/ width="1250" height="460">11</span></a>
+                        <a href="#" title="12"><span><img src="data1/tooltips/12.jpg" alt="12"/ width="1250" height="460">12</span></a>
+                    </div>
+                </div>
+                <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">css image slider</a> by WOWSlider.com v9.0</div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="engine1/wowslider.js"></script>
+            <script type="text/javascript" src="engine1/script.js"></script>
+
+        </div>
+
+        <h1 class="heading">New Movies</h1>
+
+        <div class="boxes">
+
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

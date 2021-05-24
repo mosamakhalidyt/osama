@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> This Is Karachi | Our Karachi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<style>
+    * {
+        outline: none !important
+    }
+
+    body {
+        font-family: 'poppins', sans-serif;
+    }
+
+    header {
+        position: relative;
+        z-index: 1000000;
+    }
+
+    p {
+        font-size: 1.15rem
+    }
+
+    .navbar-brand {
+
+        font-size: 35px;
+
+
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.356) !important;
+        transition: 2s;
+    }
+
+
+    ul li {
+
+        margin-right: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.473);
+        padding: 1px 15px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    ul li:hover {
+        background-color: #fff;
+        transition: 2s all;
+
+    }
+
+    ul li a:hover {
+        color: #000 !important;
+    }
+
+
+    .banner {
+        background: url(ddf.jpg );
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0%;
+
+    }
+
+    .banner:before,
+    .sec2:before .contact::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(#000, transprent);
+        pointer-events: none;
+    }
+
+    .banner:after,
+    .sec2:after .contact::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(260deg, #000, transprent);
+        pointer-events: none;
+    }
+
+    .height100p {
+        height: 100vh;
+    }
+
+    .h100 {
+        height: 100%;
+    }
+
+    .contentBox {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .contentBox h1 {
+        font-weight: 800;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 5rem;
+
+    }
+
+    .contentBox p {
+        color: #fff;
+    }
+
+    .sec1 {
+        padding: 100px 0;
+        background: #000;
+    }
+
+    .headertext {
+        color: #fff;
+    }
+
+    .headertext h2 {
+
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .placebox {
+        position: relative;
+        max-width: 300px;
+        height: 400px;
+        margin: 0 auto;
+        background: #000;
+        margin-top: 30px;
+    }
+
+    .placebox .imgbx {
+        width: 100%;
+        height: 100%;
+    }
+
+    .placebox .imgbx img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .placebox .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: baseline;
+        align-items: flex-end;
+        margin-right: 15px;
+        /* border: 1px solid rgba(255, 255, 255, 0.473);
+        padding: 1px 15px;
+        border-radius: 5px;
+        border: none; */
+    }
+
+    .placebox .content h3 {
+        position: relative;
+        margin: 0;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.95);
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+    }
+
+    .placebox .content h3 span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .sec2 {
+        position: relative;
+        background: url(download.jpg);
+        background-size: cover;
+        height: 100h;
+    }
+
+    .sec2 h2 {
+        font-weight: 800;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 4.5rem;
+    }
+
+    .btnD1 {
+        border: 2px solid #fff;
+        color: #000;
+        background: #fff;
+        border-radius: 50px;
+        padding: 15px 50px;
+        font-size: 1.15rem;
+        outline: none;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .blog {
+        position: relative;
+        padding: 100px 0;
+        background: #000;
+
+    }
+
+    .blogpost {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        background: #fff;
+    }
+
+    .blogpost .imgbx {
+        height: 4v00px;
+    }
+
+    .blogpost .imgbx img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .blogpost .content {
+        padding: 15px;
+    }
+
+    .blogpost .content h1 {
+        margin: 0;
+        padding: 0 0 10px;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .btnD2 {
+        background: #262626;
+        color: #fff;
+        border-radius: 30px;
+        padding: 10px 20px;
+        float: right;
+    }
+
+    .contact {
+        position: relative;
+        padding: 100ox, 0;
+        background: url(cn.jpg);
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+    .contact form {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .contact .form-control {
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, .2);
+        height: 50px;
+        border-radius: 0;
+        background: rgba(0, 0, 0, .6);
+        color: #fff;
+        font-size: 1.25rem;
+    }
+
+    .contact .form-control:focus,
+    .contact .form-control:hover {
+        border: none;
+        border-bottom: 2px solid rgba(225, 225, 225, 1);
+        box-shadow: none;
+    }
+
+    .contact .textarea {
+        min-height: 100px;
+    }
+
+    .contact .laabel {
+
+        color: #fff;
+        font-size: 1.25rem;
+    }
+
+    footer {
+        background: rgba(31, 4, 4, 0.712);
+        padding: 50px 0 0;
+
+    }
+
+    .sci {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sci li {
+        list-style: none;
+        margin: 0 20px;
+    }
+
+    .sci li a {
+        color: #777777;
+        font-size: 2em;
+        transition: 0.5s;
+
+    }
+
+    .sci li a:hover {
+        color: #fff;
+    }
+
+    .cpryt {
+        margin-top: 20px;
+        text-align: center;
+        color: #777777;
+    }
+
+    .cpryt a,
+    .cpryt a:hover {
+        color: #fff;
+    }
+</style>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top" id="nv">
+            <div class="container">
+                <a class="navbar-brand" href="#">Our Karachi</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#explore">Explore</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#advanture">Advanture</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                        <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>  -->
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid height100p banner" id="home">
+        <div class="container  h100">
+            <div class="contentBox h100">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div>
+                        <h1>City Of Light</h1>
+                        <p>Karachi is the capital of the Pakistani province of Sindh. It is the largest city in Pakistan
+                            and
+                            seventh largest city proper in the world. Ranked as a beta-global city, the city is
+                            Pakistan's
+                            premier industrial and financial centre, with an estimated GDP of $114 billion as of 2014.
+                            Wikipedia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="sec1" id="explore">
+        <div class="container">
+            <div class="row">
+                <div class="offset-sm-2 col-sm-8">
+
+
+
+                    <div class="headrtext text-center">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                            <h2>Famous Food Street Of Karachi</h2>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+
+                            <p>Meat (mainly beef) plays a dominant role in Karachi food. Curries, pulses like Lentils,
+                                called dal, are also very popular. Of all the meats, the most popular are: ..Karachi is
+                                considered the melting pot of Pakistan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="placebox">
+                            <div class="imgbx">
+                                <img src="bir.jpg" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                <h3> Student Biryani <br><span>Sadar</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="placebox">
+                            <div class="imgbx">
+                                <img src="order.jpg" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                <h3>Shaheen Shinwari Rastaurant <br><span>gulshan-e-jamal</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="placebox">
+                            <div class="imgbx">
+                                <img src="mm.jpg" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                <h3>kolachi rastaurant <br><span>do darya klifton</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="sec2" id="advanture">
+        <div class="container h100">
+            <div class="contentBox h100">
+                <div>
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+
+                        <h2>advanture is every where</h2>
+                    </div>
+                    <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                        data-aos-duration="500">
+
+
+                        <p> After your outdoor adventures, you will need a place to dine. ... you should come Karachi
+                            from
+                            far, from adventures, and perils, and discoveries every day, with new life ...</p>
+                    </div>
+                    <a href="#" class="btn btnD1">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="offset-sm-2 col-sm-8">
+                    <div data-aos="fade-up" data-aos-duration="3000">
+
+                        <div class="headertext text-center">
+                            <h2>Famous Point Of Karachi</h2>
+                            <p>Tourism in Pakistan is a growing industry. In 2010, Lonely Planet termed Pakistan as
+                                being ... Forbes ranked Pakistan as one of the 'coolest places' to visit in 2019. ...
+                                The first arrival of Islam in the South Asia took place in Karachi, Sindh, ...
+                                .Karachi is a tourist destination for domestic and international tourists. This is a
+                                list of tourist attractions in the city</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="blogpost">
+                        <div class="imgbx">
+                            <img src="f1.jpg" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <h1>Seaview Karachi, Karachi, Pakistan. 9.5K likes,.....
+                            </h1>
+                            <p>Clifton Beach,also known as Sea View, in Karachi, Sindh, Pakistan on the Arabian Sea, is
+                                a beach in Clifton, Karachi, Sindh, Pakistan ...
+                                The whole beach area of Clifton and Seaview is considered safe and peacful ....</p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blogpost">
+                        <div class="imgbx">
+                            <img src="f3.jpg" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <h1>Frere Hall is a building in Karach,8.3K likes,........
+                            </h1>
+                            <p>Frere Hall (Urdu: ŸÅÿ±€åÿ¶ÿ± €ÅÿßŸÑ‚Äé) is a building in Karachi, Pakistan that dates from the
+                                early British colonial-era in Sindh. Completed in 1865, Frere Hall was originally most
+                                recognized structures, such as Frere Hall, date from the British Raj. ... Karachi ...
+                            </p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blogpost">
+                        <div class="imgbx">
+                            <img src="f5.jpg" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <h1>Aladin, Karachi Lines, Sindh, Pakistan. 716K likes.
+                            </h1>
+                            <p>Aladdin Park, Rashid Minhas Road ¬∑, opened in 1970, is a public funded 'family-only' Park
+                                is an amusement park located in Karachi, Pakistan..There is separate Kids play area for
+                                children aged under 8, and Food court. .</p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blogpost">
+                        <div class="imgbx">
+                            <img src="nh.jpg" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <h1>Bahria Town Karachi spans over 16,000 hectares (40,000 acres) .
+                            </h1>
+                            <p>
+                                Bahria Town Karachi - Wikipediaen.wikipedia. Bahria_Town_Karachi
+                                Bahria Town Karachi is a privately-owned gated suburb under construction near Karachi,
+                                Pakistan., ....</p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div data-aos="fade-up" data-aos-duration="3000">
+
+                        <div class="headertext text-center">
+                            <h2>contact us</h2>
+                            <p>if you want to visiting for any places of karachi please enter here you feedback and
+                                contact us thanku
+                                .</p>
+                            <div class="row clearfix">
+                                <div class="offset-sm-2 col-sm-8">
+                                    <form>
+                                        <div class="form-group">
+                                            <label>name</label>
+                                            <input type="text" name="" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>phone</label>
+                                            <input type="text" name="" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>email</label>
+                                            <input type="text" name="" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>massage</label>
+                                            <textarea class="form-control textarea"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btnD1">send</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="sci">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></i>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></i>
+                            <!-- <li><a href="#"><i class="fa fa-gmail"></i> -->
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></i>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></i>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></i>
+
+
+                        </li>
+                    </ul>
+                    <p class="cpryt">@copyright 2019 nature|template by <a href="#">online tutorials</a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).scroll(function () {
+            $('.navbar').toggleClass(".scroll", $(this).scrolltop() > $('.navbar').height());
+
+        });
+    </script>
+    <script>
+        AOS.init(2000);
+    </script>
+</body>
+
+</html>                                                                                                                                                                                                                             ‚Ù?æx+Üeï‡0˘¶.)MSI˝«-™|@“¨ZK{ô&ƒõñEç3Å˝k«¸m¨¯~Óÿ:"fîJ∏¬ûπÆõ£:p?"ÒÉƒNƒÂ¯¨ñ¨ÔR∑©·≤[¸€–|¸‰Ø≠~¢˛≈∆ß´Èrh6≤ “irÇl–s$G$û√˘Û_yOÌ0≥åwäπ¸7Åó>.N:\˝ãƒñ∫=ıÆüû≤ˇ h¿d∏‘•‹°$z„ûﬁ∏Æ˜A◊/¥õﬂÌ-,¥w¶ÜGáÜhéw˙c5Úï©ÛÎsËìîõrÿ’÷5(Ô|ô·ñDöDÃπ\Øˇ ^π	¥u◊Âö¬ı¢ñ"Zfœ ˆµ Ë]F=™íÜÆ:#J«√o·ÀKKXæ‘ˆ»ÂRwåóaÿ†ËkgRä)£.«4ëë9Æ€ªÎ©î1ê≈Tu§éf–€ßˆ†çN÷6‰íW=ÅØÀ/€À≈:µ«äÙœÈ◊wO£[ÈãF˘∑;π„Æ#¸+í£ü÷)&∂‘ÒÛÌ0Òîz≥Û2Ú	U–´ ⁄˘Í*•≥4ƒÍ?yWÁ≠}E)€ñqgÀﬂñWã?[ødüè∂:?É.W«˜cÏñ§y[ÖWêÚ™‡xp9<zÊøH¸=®i'Ç€U”/l„µºµíÂDŒp=OÅ˙‘‚•V¨%U-è∑°_€·SÉΩñßÂ˜Ì¡„MP∑”t›Í‹Mk<÷˙ßŸ¬=z°,98#˚WÂÃ™≥1*NvíHÎè-Á÷2>y„'& ÒEåá‰ú◊›?±èÅ,5ﬂ›j∑wñ1KoÜ∞∂∏rùHbT y‡}kﬂ¶Ω…Iˆg≠ì—Á∆AÆáÎ'å¸†¯˛¬¸S`∫å !Tùé’`F
+Á8‰W“æÈ∫ü¬ÌFœN“¢ì_≤÷†∑Xa¬ìo±å£ug9 ©‡~£Â15ÂmkçRÜNÇ≥f6©·i3À≥§M¢I÷wçµôª˙∫Û^ïá·Æø‚ã´Øi∂óo·Àÿñv∆@lÙ\ë≈q∫ÙÈ·ßRL0µa
+>“£Ω∑>ÒÒfçg®ZÈw/¢ZMuo,nhÇ;>‡	fŒ3ü~(Ò$Vv0⁄≈sowp◊í•ãEmFÒH‹ ‹°}æùk‡jøi)π˜<IbÂŒ’ÙlËM≤M/J“¨Ê∏¥XcUkôÔcû1œZÇﬂBMRû‚•Ω˚|àŒ¿TÅÄ:ÚkL2TîîV‰98Õ≈ÍéöÎS}6T∂π≤."ÿŒkN+•π≥"ıq∞WQŒ÷Í+ãŸ‘ãvIFM¥ÃÀKõ{È§∑ïW ª`å÷>¶∞FZ;Çñ÷∂Úp√!@ÔüÁ«5t⁄≤R‘¬≠NTîY˘˝Ò„◊ƒo|QÒ

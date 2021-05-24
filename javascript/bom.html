@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="screenwidth"></p>
+    <p id="screenheight"></p>
+    <P id="screenavailwidth"></P>
+    <P id="screenavailHeight"></P>
+    <p id="screencolordepth"></p>
+    <p id="screenpixeldepth"></p>
+    <p id="windowlocation"></p>
+    <p id="pagehostnameis"></p>
+    <p id="PagePathIs"></p>
+    <p id="PageProtocolIs"></p>
+    <p id="CookiesEnableis"></p>
+    <p id="BrowserName"></p>
+    <p id="BrowserEngine"></p>
+    <p id="BrowserAppVersion"></p>
+    <p id="BrowserUserAgent"></p>
+    <p id="BrowserPlatform"></p>
+    <p id="BrowserLanguage"></p>
+    <p id="JavaEnabled"></p>
+
+    <input type="button" value="Back" onclick="goBack()">
+    <input type="button" value="Forward" onclick="goforward()">
+
+
+
+    <script>
+        document.getElementById("screenwidth").innerHTML="Screen Width: " + screen.width
+        document.getElementById("screenheight").innerHTML="Screen Height: " + screen.height
+        document.getElementById("screenavailwidth").innerHTML="Available Screen Width: " + screen.availWidth
+        document.getElementById("screenavailHeight").innerHTML="Available Screen Height: " + screen.availHeight
+        document.getElementById("screencolordepth").innerHTML="Screen Color Depth: " + screen.colorDepth
+        document.getElementById("screenpixeldepth").innerHTML="Screen Pixel Depth: " + screen.pixelDepth
+        document.getElementById("windowlocation").innerHTML="Page Location Is: " + window.location.href
+        document.getElementById("pagehostnameis").innerHTML="Page Host Name Is: " + window.location.hostname
+        document.getElementById("PagePathIs").innerHTML="Page Path Is: " + window.location.pathname
+        document.getElementById("PageProtocolIs").innerHTML="Page Protocol Is: " + window.location.protocol
+        
+        function goBack(){
+            window.history.back()
+        }
+
+        function goForward(){
+            window.history.forward()
+        }
+
+
+        document.getElementById("CookiesEnableis").innerHTML="Cookies Enable is: " + navigator.cookieEnabled
+        document.getElementById("BrowserName").innerHTML="Name is: " + navigator.appName + " Code Name is: " + navigator.appCodeName
+        document.getElementById("BrowserEngine").innerHTML= "Browser Engine Is: " +navigator.product
+        document.getElementById("BrowserAppVersion").innerHTML="Browser App Version: " + navigator.appVersion
+        document.getElementById("BrowserUserAgent").innerHTML="Browser User Agent: "+ navigator.userAgent
+        document.getElementById("BrowserPlatform").innerHTML="Browser Platform: "+ navigator.platform
+        document.getElementById("BrowserLanguage").innerHTML="Browser Language: "+navigator.language
+        document.getElementById("JavaEnabled").innerHTML="Java Enabled Is: "+navigator.javaEnabled();
+        
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+    <select id="changeImage">
+        <option value="0">image 0</option>
+        <option value="1">image 1</option>
+        <option value="2">image 2</option>
+      </select>
+      <img id="image" src='img/car1.jpg'>
+
+
+<script>
+var imagesArray = ["img/car1.jpg", "img/car2.jpg", "img/car3.jpg"];
+
+$('#changeImage').change(function(){
+  $('#image')[0].src = imagesArray[this.value];
+});
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<body>
+   <script>
+       $(document).ready(function(){
+           $("button").click(function(){
+               $("#paral").hide();
+           });
+       });
+       $(document).ready(function(){
+           $("#btnshow").click(function(){
+               $("#paral").show();
+           });
+       });
+       $(document).ready(function(){
+           $(".hideshow").click(function(){
+               $("#para2").toggle();
+           });
+       });
+       $(function(){
+           $("[data-toggle='tooltip' ]").tooltip();
+       });
+       $(function(){
+           $('[data-toggle="popover"]').popover();
+       });
+   </script>   
+   <div class="container">
+       <div class="row">
+           <div class="col text-center">
+               <button class="btn btn-danger" title="Our First tooltip" data-toggle="tooltip" data-placement="right">Hide</button>
+
+
+
+               <p id="paral" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo necessitatibus autem at! Quos, perspiciatis quia sunt, pariatur praesentium nobis atque est, rerum dolorem quae facere aspernatur numquam! Impedit, culpa. Ad.</p>
+
+
+
+               <button id="btnshow" class="btn bg-info" >show</button>
+
+
+
+               <button class="btn btn-primary hideshow" title="hide and show" data-toggle="popover" data-placement="right" data-content="you can hide content and show content with this button">hide / show</button>
+
+
+
+               <p id="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eius sint aut voluptas exercitationem tempora est illum odio, excepturi alias atque, consequuntur numquam deserunt voluptatibus, ut praesentium asperiores officia at.</p>
+           </div>
+       </div>
+   </div>
+</body>
+</html>

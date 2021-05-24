@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment.aptech</title>
+    <link rel="icon" type="IMAGES/png" href="IMAGES/ba.png">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="files/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="JS/jquery-3.5.1.min.js"></script>
+    <script src="files/dist/aos.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+</head>
+<style>
+    .collapse
+    {
+        float: right;
+        color: white;
+    }
+    .img
+    {
+        float: right;
+
+    } 
+    .chal
+    {
+        color: white;
+    }
+    .chal:hover
+    {
+        color: blue;
+    }
+    .mobile
+    {
+        color: white;
+    }
+    .mobile:hover
+    {
+        color: skyblue;
+    }
+    .kia
+    {
+        color: white;
+    }
+    .kia:hover
+    {
+        color: brown;
+    }
+    .one
+    {
+        color: white;
+    }
+    .one:hover
+    {
+        color: skyblue;
+    }
+
+
+
+
+</style>
+<body>
+    <header>
+        <div class="jambotron jambotron-fluid bg-dark  col-lg-12 col-md-6 col">
+        
+           
+                    
+                        <nav class="navbar navbar-light navbar-expand-md bg-light">
+                            <a href="#" class="navbar-brand"><img src="IMAGES/ba.png" class="fluid" width="155"></a>
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                                <span class="navbar-toggler-icon "></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbar">
+                               
+
+                                <ul class="navbar-nav ml-md-auto">
+                                    <li class="nav-item "><a class="nav-link active" href="#"><i class="fas fa-home "></i>  Home</a></li>
+                                    <li class="nav-item"><a class="nav-link active" href="#1"><i class="fas fa-users"></i>  About us</a></li>
+                                    <li class="nav-item"><a class="nav-link active" href="#5"><i class="fas fa-briefcase"></i>  Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link active" href="#2"><i class="fab fa-servicestack"></i>Service</a></li>
+                                
+                                    <li class="nav-item"><a class="nav-link active" href="#4"><i class="fas fa-at"></i>Contact us</a></li>
+                                  
+                                </ul>
+                            </div>
+                
+                        </nav>
+
+             <div class="container">
+                 <div class="row">
+                     <div class="col-lg-6 col-md-6 mt-5">
+                        
+                        
+                        <div class="main">
+                           
+                           <h3 class=" font-weight-bold  my-3 mt-1" style="color: white;" >Hello I'M</h3>
+
+                           <h1 class="font-weight-bold  my-3 mt-1" style="color: white;">Haseeb Tufail</h1>
+
+                           <h3 class=" font-weight-bold  my-3 mt-1" style="color: white;" >UX | Fronted-End Desinger(trainee) </h3>
+                         
+                           <a class="btn px-3 px-5 btn-outline-light mt-4" href="cv.rar">Click for hire </a>
+                       </div>
+                      
+
+                          
+
+                     </div>
+                     <div class="col-lg-6">
+                        <img src="IMAGES/a.png"  class="img-fluid"width="500" height="400px" float="right">
+                       </div>
+                           
+                 </div>
+             </div>                
+                
+                
+               
+        </div> 
+     </br> 
+     </br> 
+
+
+        <div class="container" id="1">
+          <div class="text-center">
+              <h1 class="display-4 font-weight-bold">About Myself</h1>
+              <p class="text-muted"> my name is Haseeb and i am a student of aptech metro stargate!</p>
+          </br>
+        </br>
+
+          </div>
+          <div class="row">
+              <div class="col-lg-6">First of all, thank you for giving me this opportunity to introduce myself. My name is Haseeb Tufail. As far as my education qualification is concerned,!</div>
+              <div class="col-lg-6">
+                  <h1>html</h1>
+                  <div class="progress">
+                      <div class="progress-bar bg-info" style="width: 85%;">85%</div>
+                  </div>
+
+                  <h1>Css</h1>
+                  <div class="progress">
+                      <div class="progress-bar bg-success" style="width: 68%;">68%</div>
+                  </div>
+
+                  <h1>Javascript</h1>
+                  <div class="progress">
+                      <div class="progress-bar bg-dark" style="width: 61%;">61%</div>
+                  </div>
+
+                  <h1>Bootstrap</h1>
+                  <div class="progress">
+                      <div class="progress-bar bg-danger" style="width: 80%;">80%</div>
+                  </div>
+                  </br>
+                  </br>
+                  </br>
+                  
+              </div>
+          </div>
+        </div>
+        <div class="jambotron jambotron-fluid ">
+            <div class="container" id="5">
+                <div class="row ">
+                    
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="card outline-light bg-dark" style="color: white;" data-aos="zoom-out-down">
+                        <div class="card-body">
+                        <img src="IMAGES/2.jpg" class="img-fluid" >
+                        <div class="card-title text-center ">
+                            <h1 >UI</h1>
+                            <P class="lead">User interface (UI) design is the process designers use to build, </P>
+                            <button class="btn btn-md btn-outline-light" data-toggle="modal" data-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="card outline-light bg-dark" style="color: white;" data-aos="zoom-out-down">
+                        <div class="card-body">
+                        <img src="IMAGES/3.png" class="img-fluid" >
+                        <div class="card-title text-center ">
+                            <h1 >UX</h1>
+                            <P class="lead">To put it simply, UX is important because it tries to fulfill.</P>
+                            <button class="btn btn-md btn-outline-light" data-toggle="modal" data-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                
+                <div class="col-lg-3 col-md-6 col-sm-12  ">
+                    <div class="card outline-light bg-dark" style="color: white;" data-aos="zoom-out-down">
+                        <div class="card-body">
+                        <img src="IMAGES/c.png" class="img-fluid" >
+                        <div class="card-title text-center ">
+                            <h1 >Java</h1>
+                            <P class="lead">JavaScript is a text-based programing language used both.</P>
+                            <button class="btn btn-md btn-outline-light" data-toggle="modal" data-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12  ">
+                    <div class="card outline-light bg-dark" style="color: white;" data-aos="zoom-out-down">
+                        <div class="card-body">
+                        <img src="IMAGES/d.png" class="img-fluid" >
+                        <div class="card-title text-center ">
+                            <h1 >Html</h1>
+                            <P class="lead">HTML stands for Hypertext Language It allows to create structure.</P>
+                            <button class="btn btn-md btn-outline-light" data-toggle="modal" data-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>  
+           </br>
+        
+        <div class="container" id="2">
+            <div class="text-center">
+                <h1 class="display-4 font-weight-bold">servicestack</h1>
+                <p class="text-muted">The simplest way to keep notes. All your notes, synced on all your devices. Get Simplenote now for iOS, Android, Mac, Windows, Linux, or in your browser.</p>
+            
+            </div>
+               </br>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4  ">
+                    <div class="card text-center m-2" >
+                        <div class="card-body">
+                            <i class="fas fa-pencil-ruler fa-4x" style="margin-right:10px ;"></i>
+                           <h1 class="font-weight-bold">Web design</h1>
+                           <p class="text-muted">Create a Website Today. Get Everything that You Need to Succeed Online with Wix! Turn Your Site into a Successful Brand with aptech</p>
+                        </div>
+                    </div>
+             </div>
+
+             <div class="col-lg-4 col-md-4 col-sm-4  ">
+                <div class="card text-center m-2" >
+                    <div class="card-body">
+                        <i class="fas fa-cogs fa-4x" style="margin-right:10px ;"></i>
+                       <h1 class="font-weight-bold">Web Develop</h1>
+                       <p class="text-muted">Web development is the building and maintenance of websites;</p>
+                    </div>
+                </div>
+             </div>
+
+             <div class="col-lg-4 col-md-4 col-sm-4  ">
+                <div class="card text-center m-2" >
+                    <div class="card-body">
+                        <i class="fab fa-windows fa-4x" style="margin-right:10px ;"></i>
+                       <h1 class="font-weight-bold">MS-Office</h1>
+                       <p class="text-muted">The Office app combines the Word, Excel, and PowerPoint apps you know and rely on, with new capabilities its makes you capable,,</p>
+                    </div>
+                </div>
+              </div>
+              
+
+            </div>
+        </div>
+          </br>
+
+      
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                        <div class="text-center">
+                            <h1 class="display-4 text-muted">For more detail's</h1>
+                            <p class="text-muted pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque.</p>
+                        </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+             </div>
+            </div>
+
+
+
+
+
+            <div class="jambotron jambotron-fluid ">
+                <div class="container" id="3">
+                   <center><h1 style="color: white;">My Blog's</h1></center>
+                   <center><p class="text-muted">thats all but course continue so stay with us</p>
+                </center>
+                    <div class="row ">
+                        
+                   
+                </div>
+              </div>
+            </div>
+
+                </br>
+                </br>
+
+
+            
+                <div class="container">
+                    <div class="text-center">
+                        <h1 class="display-4 text-muted font-weight-bold">FORM</h1>
+                        <p class="text-muted pt-2">for further queries please fill the for and stay with us.</p>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-lg-6 col-md-12 offset-md-3">
+                            <form class="text-muted">
+                                <div class="form-group">
+                                    <label for="">First Name</label>
+                                    <input type="text" class="form-control" placeholder="type name...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Last Name</label>
+                                    <input type="text" class="form-control" placeholder="type last name...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="email" class="form-control" placeholder="type email...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Message</label>
+                                    <input type="text" class="form-control py-5" placeholder="write message...">
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-outline-dark btn-block">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+           
+            
+
+
+
+
+            
+
+
+    </header>
+
+
+
+   
+   
+   
+    <footer class="footer bg-dark">
+        <div class="container" id="4">
+            <div class="fotter-left">
+        
+            <a href="" class="navbar-brand " ><img src="" class="fluid" width="155"></a>
+        
+        
+         
+         <div class="row ">
+             <div class="col-lg-4 col-md-4 col-sm-4 ">
+               <center><a href="https://www.facebook.com" >
+                <i class="fab fa-facebook fa-2x chal" style="margin-right:10px ; "></i></a></center>
+             </div>
+
+             <div class="col-lg-4 col-md-4 col-sm-4 ">
+                <center><a href="https://twitter.com">
+                    <i class="fab fa-twitter fa-2x mobile" style="margin-right:10px ; "></i></a> </center>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 ">
+                <center> <a  href="https://www.instagram.com">
+                     <i class="fab fa-instagram fa-2x kia" style="margin-right:10px ;"></i></a></center>
+              </div>
+         </div>
+          </br>
+          </br>
+
+       
+        
+            
+          <div class="footer-bottom one">
+          <center><p><u><b>All Right reservesd by &copy;Tufail's 2020</b></u></p></center>
+          </div>
+          </div>
+
+         </div>   
+        </div>
+        
+        
+        
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        AOS.init({duration:2000,});
+    </script> 
+    
+</body>
+</html>                                                                                                                                                                                                                                                                                                                    ÆãFËUÄÅ¯"1”‰ñ³¸ğ8nzìG’2÷¼üTVÔ".@à¸d÷OJ
+¡¦¶ÂÊø%&¤Û8(Ñ7$ZşØ&ö?-î¼/‰nšTB©Œ“ ‘@§â@‚†çS³1ššÄ0^o¹22l£¾s»‹‹s(-+4÷C‚Ù®Î>+w67»„µÈ‚+ƒ×ØhÏ'	À¿œ{ô\Ù±³ÁÈæ,˜ššµã½¨o¨EFfŠ)Œ/X_âzÓMwÉË ^·¹‹kØÒĞh ˜m¤rÉŞ¿¬¬ÄÜ!yÍ@ÿ –zmûöíqñşáEËî?:2eí6/ˆÔ«¸pğËSÁ2€ƒcˆ¬ôa™Á’Ò|$&QW·Ù™®Î4Ø·ìóòÈÏG$n	K‹+(*bRÎªh¨A¿‚'–c´ÕÕ¶¶¹>y=k½%¶5î°¾¢ ãúGyE©%Á”ğ®­®1%cÇó©˜×V—[v^
+·¤—8Šó‹óm}İƒÂ)çÿ?ÂØs/ÀñI¤€6|†ÿï‹b!¿¡œD	¹²¿V]Y(S"»J¹Ş°D	*Àôûìâô2®_êÂòÄäX y	–©8LFç4òJé¥’¥ÅÆ†ÆP¿¥³³kX[@Ó¹!<òô#Ö–“pá£ë˜™ÆÌ/d†    IDATS/C|<³§/âß}ßöÏ}ş%„1ƒµõ¬/à¯şìÛ8ğ@)öì>„¹…eÄ‡8óÁ;¸sû&î;rí·{rÀ”ó…Ä¹·¶¶ayiÕeÛ_]B`=€íÛw˜*(ÈGFZ:Şï,23Špè¾]¯³ŠÆ†º§11å•)ì  <½}=ıøÆhBZj2’ÒÖPP–ƒÇj1<8†›ÃXZVÂKVš•kui>‚æk707?m‰[§çJHÇÄè:–˜%k9.µŒ’¢t[´òMŒ vs9J*
+±†‚T28œ·KY]ia•—Š,sRlM:÷o…ìˆØ¸—µM@{•,ÁnŸrÖ#‘\¾ÅÖph}˜ùßù@ÛR¶v<´Æt¯HûD¯8ûVUX©z®@¾ÿX9w>° XyëäI#–xL	…]ÈâÉ™Ş#Œù÷-y	R¹°³ûå¾È>WL?ÇRc`Õpòò0;í2à³ßyOî½$äÍFyÈs9†®ÂÍ–VVH^]^ÁÊê’­Ûì¬\°œC·R’M¦pÜ(×¸ÿÉc@5ÍÙNÊU@g»Z@¹ÀŞßB¿¢
+fæf7’ññ:‰!×tÍ1y…øs‰ó—Ÿå’,òiœGscÈÂ-"J`ˆä²Hª,X®‹¥U{_¶Í0LšÎˆ§%:Ñª	lÈ€xW1€çñŒ‰&øô½”‡!Ö…]÷Ú c£!"Â„}@¦u Ğ/`¦¾à÷>0) ı^íÔĞåõ"ìïº‹÷çyrÃ!ÌI4i]j=JîhM‰ œÑøò:yk¬ëÉXöÏ†çFtŸáuòÚÓØ®XBï ‚BkÙ_Ç±d¡úÆ'ü¾pÖnçi§qˆ%@ô¾>Ùå~?‘ ç'ï;ˆÕ)Ô®Ÿ]ub¸G(© Ÿ'ï
+‘QjçzØrü¡‡+mˆ°Û˜cF8‚H„¿ÿê<­ÙRÌopMĞ<ò¢*’‘M™ÙÙ‹Çùş£şF^^ŞPÀjŞû¹×÷üÊ¯şzD¬/„ÕV…LÙãFÏR‚:\0Tø(x)è¸ˆxnzF†	P
+i
+mÅ]Rª|…9ŸAK%-n|ÅGgÏ¨¤°cü:sPª| |s³ ˜=pğ 	 *ªÇî?ŒÎö>r´Œ¾ÿŞ‡8px7B)pÜƒÁqsÅ'YqöÌyTV£  w»Ğ°eŞ{çİŒÿ?úÀAŒŒŒ™k:óœz÷CTU—Yû/^¸ŠûîÇ@ÿˆõÁ¶í¸ŞÔj÷¡àıáŞÄg?÷n4·šò¿cçV\>ß„PBÀH”M·°¹¾ÊÜÉûúû±oÿ.\¾ÔŒ¢â<³‚ğùUÕ%–%Ÿ$İ%UF}DPM…†ãqæÌ‡Ø½§Ñ ıÍ›­¨o`Ù¼ ÒÓ²Œ†WÖ¬)ØŸüËÍ‡7<z+ÌÌN  Áøu<ÿüó˜šœÇĞà8ÆF§PXìÊÒz£²J$køÃñc>ö7K’%ü¬jœÜ©t±­œ'ğ|Õ)fˆRºŞ;ë8Ï#(¦2ÁytäÈ$&¤`ºrùºK^^DyE‘Õ#ÏÌpŠ!Û@×}*—‰I!À–—`~İB8‡zPS[ns·¸¨ˆ„0:2iç0ñËp°_™I}rbÎH„ö[&Ø99¿:C "$$¼IRIÈ‘¼á¼åïÊR sóSØ\_Ü¼L—P0§Ğ²Å“ h½Õ‚Õ0cê–QYUjëbdxÊÊNŒÏ`|jpƒP‘Ğ#(“{ìØè´­S–=AYy	RR,a‰»õp‚G®úƒ‹Ûå;°Ÿ9ØVö3‰ŞW–#…–0Aç$çÍèğÈ†K®öŒšª2##,á‚6ßù¿SÈeV$€„şš`sd€À‡Ïû€?ö]#áî’ıÿo—T0Vè‘òä,?ê!Àõ³ºä,0Fšxn‹šRHÚEÃ*h™f?s-Ü¾Úƒk;,)7;İwg‘–‡ôÌ ‘Tœ{ï<X‡øD ·kİôŒÚ†´œ$LLãì[hÜW‚=ûv ¯{W/µ`p¨/~î	+KÅüÒGm¸võ<^xáTm.FOïÌ'áÜ‡W0<y_øÂ˜ìÚÔÚÖ†?úÚ¿Çş=»-œk~vÓ³S6·HÈq}\¼x‘uÆdç¨A}ıVlİ²‰	qHMKÂÈĞ,n5÷ ´²‡ìDNa<†û§qúñJÈÅ—şá3æ}õµß{v6 ¿0øT«\148ŒSoŸANv*RSr	¬a=²h!ëá z‡03±ŒPâ
+0‡PR‰¡<Ü½Ãp¨4$$¯cqe#(ÈÏ5(†D°Š]{v %3d^qñ	$™ ¹í9««F2(“ü†{wxÕ”H•$åšWî…	È:¤ølYàÀr <Æ{Êó€çpÎÉCÁ·nÅZ:9¯ä v	(H÷A†¿f´§økPß}!àƒ*­ôû÷óÇ‚(¤ÛmmfP nÀ~¤n@€ÎöRØ¾m›ÉÅus¿âŞÅkf@YÄşv}tU„JKm&PçwJæHËA,û†û ×6å9Çšò†Ï”uœãi`.1ÉÂÕR’’QQYfû%sĞ0¶ŸÕ "S‰®e|ˆ “-á°ÉéEr¿ç³ØŞ?òğ`[\MJr{b0Ît$…3ğ<>C¡Îzè˜É’¬*ì'Z@ÙÊ¾'ß›çRÏb›cÏ=Ld®\ÛùÉ¾ÛÂ÷Thö5V3q–äÈFˆÃ&ÇÇ166bë’ ŸÄ›®á/â@Iù9)Á‘ò´'€È(Í-Iôjû^ì#}øğHÓ=>é¸O:°å½Ávø$Ædƒœ ëÆ;÷t]ÇktÜ¤$b	?xû‚<Ó´şõW–e­q{É]‘)¾\ÔµÚó$çxÍ†ÌŠ†2©İZû>	 Ë6«/yŞ'";ôu­í«úNïÄ6¨Ÿ|Yí{øû¢;‡d­#´5>ùjïƒÀ!À}DëNíWŞ?—×¼æ=–*B`ƒPµ5éH!ŸÀñ?‹DÒw>q¡6“`¿Åc¥SS—=öö#ÿµÂÂò›@À±÷~îõÀß±Ÿzî…­«ntVFu
+Ü³~h [YåùÁÃ
+:»ºLS 3­‡2´,Àó:K!MO FÅŠŞ|ŸIo‡zÈ %Á-™?øás1Ğ[á…çŸ7ë?Ï'øºrõªg»¯\½€O=ıiË@p¸kç>\¾v¥%•&ğß~çÜwäA¾<~hÿ}h»sÌ·RRZn€±¤°Â@#ŸWXPŠÙ…	ËPÏøj–İª(ß„Ûm-¦¬(^¹zGßoíYY¥Ûx=nŞºî ãJÄr
+0Q`ßà ¦gÆñĞıZ;Ì‘’eÇ:ju”yİ¡ƒ÷£ùÆUë§¼Ü"œ>ó6vïÚoB˜wB$8˜xI%š¨”xöª*7!##Í7.@£Uœ —„ ß™ãb.øÉÉ.€›–PTXÊŠM›6áÏÜ°EÅ¹H9÷AZ–éşï’¯n„,àæÅ~fÛù¿ÜÑ9OØÊM `à”Çù-Ñ­æê^aÂ’çss$iÂùd¥ôFçl|
+‹r°sW#–——HÄàÀ(n4ßFUM!Š‹KM¹JMI7%yœ@	#.¸†Û÷‚À™¹"HBâÖ¬`Ee±UÈÎÊG(>w;zœ›ff
+VÃÈÌJEMÕVSÆxVàÿ$8éIC¢„¤ß›ïÆ¾Rœ>“RâV1?·l@†@ë‘eLMá¡ãÇ±²²†©É+•Èû\ºtqÁ·Õ#>ŞÕ¾æs(¨ùl®#¾ßqKÖ_¡x&ŸŠ³ªqq!+yÈµ195­±›ïª¬®9À¹ärH¸µkDÄÈˆ)Ø$ ù™JãÖÆ# ,$İå~`u®][R”g®á¦0ÒÚU`y_*†l»OHèm ®8§8IYñ…£/<cÏÑç¿BÀW¬¤l›R´ê\¥˜™á2-.± ßBn¡R@¤$}!@EòÌo ıö8jjs­ŠÆõ+C¨®­@Em2f¦×Ğr±›¶” ª>}İshº0ŒÔŒœxº#CëxıÛPX‘†?ÿ€­ÉoÿÕ)´ŞÀ¡£xìS[°¾šWÿú<®\ºjy^ü©ûQX’Œ—ÇñşÛ×ĞÚvÛËğ¥/¿€ŞAttŒãü¹ËhÃ³Ï?„á¾Ì.8B€,òò˜ƒbØÜ¦.“jIB×VVû@Rr+KAÜnÅÌd<r‹#xñ‹û‘™–Š?ı£SXš 5{GØ‡âêôµÏ£´ ˆcöòÌ/D°²:‹‘¡A|øşu,/Æ¡ (E)X\$ÑÑáqõÌczq	éKxöùgqò‡1>¼€PÊ,ıÜ^üÕ×Nc÷–=]d¦…š¥g¥`Û®z$$-‹)«¿ïÀ¹Å-××“À¾rv0šóEnâ±ª}œO|ÖÇ Çî¾Û¿,µ"L½*¶¾âËùå_Ë{ÈR++ 0|}AmĞßOº¿æ¿¿>¥˜Ki×1}{\`AëJkƒïxóÖ-[3Ô(W(ö¹¿2ß
+C£(3IsŸâ¹”gÔYèMga+¶/«ŠeŸE¢S‚òòÒÛÛ¨˜ÇÀì¬]Ç1°¦<çÿ®2M“Ó3f¥KNLÂäÔ¸“¯Œš»pj²+1)k2ï­Py>ˆ|µ[”¥”®r-",îYÅ‚{5?+ÏiÅwP˜€BEäâÚåÊòÍ¤Ê²,2Š×ÊİÏeR3YJµó}¸çñ]I¸û£^ôXÄøè¨…ÃÅ'2_J’y®9¯€ &æöE2Àûó3IZ'Z—<.k6	¸²/8ÿeçù
+¥wìü×|ç÷²F‹lHõ‰Q1Ï‘w†ÖµÖ°%ö‹&’ÕúŒÈÔü·gziÔ¿•l§ïõá[Ìõê¬k~¨¿%³äéç’±z¦úDó‚}/YÎ}ğîšÇù>÷÷W»}BBäŒÿà?Òw´ğG(w?;ôew,! }ÊoG è<{¨Ëq¹ÃöÈ“Á÷0/°«JÁg1‡ 	%tä½mÏ4‹µÒúóûÈß+cu7 !! ¹Ÿ”Ş{àÀõGŸ~âW+
+*N÷ {?÷zàïØûï~?òæ›oZÒ0²êÚÀšU••øş÷¿o®ßhÍ7nà©§2×w
+lºä3“–çÔ°sÒë[ßÂg?ó³‚3? K	ÈR°ÓÒıÎÛoãğ‘#¶)dĞ@@:95e€ƒJ“’ xóõ7,ÑA†G=am¤ğÙ±í Î?i1ılcS3Áúc¸ÛåªÔT5âêõ3(/udÅ;MØ½ó®\ıuõˆC*š®Ÿ1ğgnY‘9ÔTïD[{“YGû§04Ú=ná¥å9–“àÜ…SVİ€9:ºšpßáGœ+v`»wÃ›'¿góâÂœ¿ô9á’
+®NaKİ>¼úƒoâÑÇ³ç³}{wu–î¹aT•oCWÏ-Ä“„½úê«ÂÁM…Ï`¿“( õù‘‡Á…Kg,F=#­¯¼úm<¼I	9HOså…(¼	†ù|ÇšãœJÅà`‡zQRZ`Ó‰D
+«ŒMbjzt#{0I•È­lŸ”…7Xş$s¨$QÉ£D°I2‚–Å²Ml•VP°Ğİ»‘—›inùté§‹&É¡ŒŒT+m¶wß.#èÑy×¹ësşĞŠ„¹ôww!>>€‘Ñ#nè½PR\™iÖ`|l“S£æZOZÉiÁOMÉ2ÿ¥å9ŒÂ¬ûÊaó¨­CÃ,Çæ,|e¦$R¼İzÇˆödç¤#¿ ËÂ(Hè½Áúí7[Ú”3v›Ş)Å%ùÎc&§ÓS.Ô`´KÑO^PTdçp,
+Š
+±0»‚–›ÍV>kbbÜ2½ó½™`’I°J‹]U*É¼^(’T9.rùd)Cz0fœãIÀOŠ(×kÓÕk6>ü¥RÎŸìÌTlŞÜ`ïLËÛ–’fÂ”°¾ëœOĞ&!ïÿeõuÌÿ^^{ ¿ış¿<© ¯¬|’‡€)GË®&Ç•!¾ˆï¼a­1WZºÊº)¸o»ıİóØ¸Á¸œ~÷6²s³ñè³õê_Âëß>ƒô¬tüÌ/<€ëWpöT'R3ğK¿õ"~ğ½6œû&–0Šÿå_~ÑÆìOşğ4f'SJšÅ¯ÿo'0ÜüÉÂÒ|V×§qìÑRüÔ—Ã+ßlÆß¿©éatôÃ/şÒ—±©n+>:Ósg›Ñrëví«Dnv™íåW®\2—i®‚,¶Ÿs¼aËf‹±æ¹0ÁÖÆj|şKYµ€·^»†ÉÁÄ%MâÉ·âÀüß¿÷T”Õ¡ª¶I©)$ÄáNK7úïN`kc)
+J31¿¸l–ü2pél+º:'05Û‹¬œx›gÉalª­ÃËq™IÉ™êAi]
+şñ?ùYüŞ¿şsô´/ °4_úùƒø×¿ó
+6m.CiI¾yôã061Š-5¨ÚT
+–¥•Å^ù(CòÈ•€k_.Û_¾òï+œš›Êàçp ÿãØ\)ÂRÆİœws(Vq÷•p)ç"¤<û ^
+¿Ú#ÅYà öşF>ùğãˆ…Øwõu_	ÖzÒqö1CEX“è¤RNYğÖ[oÙ^Ì¼ÜGi\`‰]îCÜ3¹Ÿ1r„ò‡d5ÉgŞƒû?ïÍûò/sŸ›3İƒc ä±Sî‰ÔefÀ÷Tâ¿H€¹?€±‘QääºkÇ&£Õ%Bæ!Às¹/‹„ Läy”…|®Ê@Ê'<”ƒg<DC)ølbç¹/3Ş÷P@1‰ §1™Åû°MÎ"oïÅçò|¶‘ßs>ª*‚æ¿WUHzğ<#²@yxNR‚KÆÉ>ãû9ğ´„‘¡{z±ª	YØùNÎ
+ÍP÷~|‡ÄK.¨=”÷”ƒö¹mó^ò¸áõ²‚sí¸Ü˜Ér»†4g}pìƒ3çÁàÂyØŞKß	¨ké½@\ùÏ*hİˆğÛ"B@k5ÖÚ¯¾•ÜHõÉõÖ*?s|5Ş"0Z}K½ŞKıK°]Şß'ôÿ¹¾V?Åî!Ú‹|²1öØûÿû„€µmmÅy&FCòøİÇûç’Ë¡vÅîsô ¢L£~GYúŠî#²I^€¶.–?®,DåĞú„€ÿ<™öwÍ{¿ÿôjo+áÄ‡"‰† Ö¡ÌŠlßµkğéçùõêÒÚ¯ßK,øwDÁ÷.ßèÀW~á¿‹Ğ
+H G qúôit''-†	~h‘§0å¹¯½öê·n1fíÍ×^77s2ë$	TU2Bœ%¼âô‡X¥»wÚ148hå„®\o²«±a‹‘*ŸwêôûF ôtİu.î5µF PØSP™ç­®“Óh¬?€Ş¾6Ç¤§äap´İ +ı¶6ƒúM{ÑİÛj/‘Z€ñÉnSv§f¦Ÿ°ŠÌÔtvİt‰„æ#HN‹ +³--7_˜fI¯]ÿÈÈ‰éÉ¬®O¢²¼Á€kÍ¦b$ÆçÀöwİ¶¤‚|ş¹³¡¼2U•ÛğÎ©×Œè˜ÄÄT/6×í0ÅdóF0  h¯„ĞÖq%J ôˆWÂ%B‚r³°·ŞAgwİ÷ˆÅ©3Yaqq9._¼âÒ,‹Å¥p 0àÆÇ± ÉÁ1v
+H²•ğcÈAqq‰)XÀÃ#ı–œ®¶¶Ş6[«~0:j ƒ
+nüÌ_¶‹Š=H¸Á‘| ›Ê7[*yR©ĞñØ&æ$¸²µ³Œ“­GVÑØXo÷aøÖØØV–ÃæUA@š›“ää»íïê¾kî¬@wÆ²Ò*ÌÍÍ›…heeÙˆ‚höa~~1òr,‰ ÃööÛ`ü<‰×Ò’ÔÕm“R	£``_ğ
+ò‹P]Si$Ë²Q™êêrY«·nÙ†ññ	ÔÔ–">>	ÃCLTµh.±CCı¨Û\‹úúZášZ˜_ÂÒ’EBgWÒÒR°µa»)E¬FÀyY,.ØZc?:¯z‹LŒOYÅ*Ì,‡¹¾î\šùËõM2ÆU2è¶w ‡“rLkj«ìûÍ7­;wîBz†+ÈÏ…ù6¶²¢q,ú{Yd¿½3½d­JLa¹'—|JŞ Rv¤XÙç(!K üm_ùøñäÀßLø×J8ûe-¯8Ë€ŸC`}5lëÈbp£Ö*Î]‘À2já¢µ,ÿqÅÉov õV;>û¥=¬åã»ß:‹ÂÒ|åÄw¾y¼yÛ÷6â+ÿÃ3øßûOÑÕ>†'Ÿİ‡/üì1üö?ÿ†Û'Q¹¹_ù¥'péâ5¼şİ«HI(BAq^ú¹¸|á¾ûõs¨«­7rïç~á$¦¯â}	×.tcrb3K]øG¿ği—Tà;ß|MWÛÑÓw@ã®m6¿N¾qÒÖVVfRSœ;sgg}ü:»îbbtdbd¬¿öÏÿ<Œßù­?ÂhÏ<RÓÓğÌ‹Ø~ôÿ¶÷åÁqç}¿ÅŞîû>$à!J¤$R¤D]¦H±,N3™fš´™8mãºMÓNf:I¦µÛd<Ó§“QÆm¢º¶%Û:hQ)‰÷M‚Iğ@Üç.ØÅîbw;¿çİ|…Ğ²;öŸÜÀî~ß÷~ï÷¾Ïóü~Ïuëê ÊÊJ’}æë{ô:qèçg±›ES[êëáög0>´€…¹(n\Áäô8æc“›Ç7ÿôëÈ ƒïŞÆTÿ&"CèÚÚŒ¯ÿöoáõï½›a‘Ù][jqáô ò<¨¬,ÆèÈà0ÊãÉˆÔj)¬0]lÄÛ™H,‡R«G•ïU½Úa@I„\;S%×L¹®!~×d^¹Ï¡PMÿ´?ãšÑëı²5 œù|¹.;Y
+W`¢?ï,8)X²÷…»ŸGèq
+¼Ô(V 1>1!`d»èPoğÚŒ†Û¾mÛ

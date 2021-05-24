@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            float: left;
+            margin: 5px;
+            transition: 1.5s;
+            overflow: hidden;
+        }
+        
+        .box:nth-child(1):hover {
+            background-color: tomato;
+            transform: translateX(100px);
+        }
+        
+        .box:nth-child(2):hover {
+            background-color: tomato;
+            transform: translateX(-100px);
+        }
+        
+        .box:nth-child(3):hover {
+            background-color: tomato;
+            transform: translatey(100px);
+        }
+        
+        .box:nth-child(4):hover {
+            background-color: tomato;
+            transform: translatey(-100px);
+        }
+        
+        .box:nth-child(5):hover {
+            background-color: tomato;
+            transform: rotate(150deg);
+        }
+        
+        .box:nth-child(6):hover {
+            background-color: tomato;
+            transform: rotate(-150deg);
+        }
+        
+        .box:nth-child(5):hover {
+            background-color: tomato;
+            transform: rotate(-150deg);
+        }
+        
+        .inner {
+            background-image: url(img/5.jpg);
+            width: 300px;
+            height: 300px;
+            transition: 1.5s;
+        }
+        
+        .inner:hover {
+            transform: scale(1.5);
+        }
+        
+        .rotate-center {
+            -webkit-animation: rotate-center 0.6s ease-in-out both;
+            animation: rotate-center 0.6s ease-in-out both;
+        }
+        
+        @-webkit-keyframes rotate-center {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes rotate-center {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="animate__animated animate__bounce animate__infinite">no problem</h1>
+    <div id="box"></div>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+
+
+
+    <div class="box">
+        <div class="inner">5</div>
+    </div>
+
+
+    </div>
+</body>
+
+</html>

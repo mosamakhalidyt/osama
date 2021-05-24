@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="F:\osama\osama\icon\fontawesome-free-5.14.0-web\css\all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, consectetur sequi dicta praesentium qui dolore reiciendis, perspiciatis illum mollitia nobis aspernatur. Dignissimos ipsum delectus accusamus ut fugiat molestiae possimus! Soluta.</p>
+    <button class="btn" id="btn1">hide</button>
+    <button class="btn" id="btn2">show</button>
+    <button class="btn" id="btn3">show & hide</button>
+
+        <div class="container ">
+            
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/a.jpg" alt="" class="img-fluid">
+                            <div class="card-title text-center">
+                               <h2>Iphone 12</h2> 
+                               <p>Lorem, ipsum.</p>
+                               <p>price :25000000</p>
+                               <hr>
+                               <button class="btn btn-danger -btn-block" id="b1">
+                                   read more
+                               </button>
+                               <p id="result" class="text-muted my-2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    <script>
+
+
+$(document).ready(function(){
+$("p").mouseleave(function(){
+    $("p").show();
+})
+    $("#btn2").click(function(){
+        $("p").show();
+    })
+    $("#btn3").click(function(){
+        $("p").toggle();
+
+    })
+    $("#btn1").click(function(){
+        $("p").hide();
+    })
+});
+
+$(document).ready(function(){
+
+    $("#b1").click(function(){
+        $("#result").toggle(3000);
+        $("#result").html(`Apple iphone 12`);
+    });
+});
+
+
+
+    </script>
+</body>
+</html>

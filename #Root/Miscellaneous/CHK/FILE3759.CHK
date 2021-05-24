@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <h1 class="text-center font-weight-bold text-u"> Course</h1>
+    <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+        <a href="#one" data-toggle="tab" class="nav-link active">Semister 1</a>
+        <a href="#two" data-toggle="tab" class="nav-link ">Semister 2</a>
+        <a href="#three" data-toggle="tab" class="nav-link ">Semister 3</a>
+        <a href="#" data-toggle="tab" class="nav-link ">Semister 4</a>
+        <a href="#" data-toggle="tab" class="nav-link ">Semister 5</a>
+        <a href="#" data-toggle="tab" class="nav-link ">Semister 6</a>
+    </nav>
+    <div class="container">
+        <div class="tab-content">
+            <div class="tab-pane active" id="one">
+                <h1 class="text-center font-weight-bold text-uppercase my-5">CPISM</h1>
+                <div class="row my-5">
+                    <div class="col-lg-3 col-md-6 col-sm-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/office.png" alt="" style="width: 200px; height: 150px;">
+                                <div class="card-title text-center">
+                                    <h5>OFFICE</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                                    <button class="btn btn-block btn-danger">Enrolled Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/html.png" alt="" style="width: 200px; height: 150px;">
+                                <div class="card-title text-center">
+                                    <h5>HTML</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                                    <button class="btn btn-block btn-danger">Enrolled Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/uiux.png" alt="" style="width: 200px; height: 150px;">
+                                <div class="card-title text-center">
+                                    <h5>UI/UX</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                                    <button class="btn btn-block btn-danger">Enrolled Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/bootstrap.png" alt="" style="width: 200px; height: 150px;">
+                                <div class="card-title text-center">
+                                    <h5>BootStrap</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                                    <button class="btn btn-block btn-danger">Enrolled Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- second tab-pane -->
+
+<div class="tab-pane" id="two">
+    <h1 class="text-center font-weight-bold text-uppercase my-5">DISM</h1>
+    <div class="row my-5">
+        <div class="col-lg-3 col-md-6 col-sm-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/office.png" alt="" style="width: 200px; height: 150px;">
+                    <div class="card-title text-center">
+                        <h5>OFFICE</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                        <button class="btn btn-block btn-danger">Enrolled Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/html.png" alt="" style="width: 200px; height: 150px;">
+                    <div class="card-title text-center">
+                        <h5>HTML</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                        <button class="btn btn-block btn-danger">Enrolled Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/uiux.png" alt="" style="width: 200px; height: 150px;">
+                    <div class="card-title text-center">
+                        <h5>UI/UX</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                        <button class="btn btn-block btn-danger">Enrolled Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/bootstrap.png" alt="" style="width: 200px; height: 150px;">
+                    <div class="card-title text-center">
+                        <h5>BootStrap</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                        <button class="btn btn-block btn-danger">Enrolled Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- third tab-pane -->
+
+
+
+<div class="tab-pane" id="three">
+    <h1 class="text-center font-weight-bold text-uppercase my-5">HDSE I</h1>
+    <div class="row my-5">
+        <div class="col-lg-3 col-md-6 col-sm-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/office.png" alt="" style="width: 200px; height: 150px;">
+                    <div class="card-title text-center">
+                        <h5>OFFICE</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                        <button class="btn btn-block btn-danger">Enrolled Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/html.png" alt="" style="width: 200px; height: 150px;">
+                    <div class="card-title text-center">
+                        <h5>HTML</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                        <button class="btn btn-block btn-danger">Enrolled Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/uiux.png" alt="" style="width: 200px; height: 150px;">
+                    <div class="card-title text-center">
+                        <h5>UI/UX</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                        <button class="btn btn-block btn-danger">Enrolled Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/bootstrap.png" alt="" style="width: 200px; height: 150px;">
+                    <div class="card-title text-center">
+                        <h5>BootStrap</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam autem tempore laudantium animi </p>
+                        <button class="btn btn-block btn-danger">Enrolled Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ¤Ùè3âawqØÓ 3RyP2z×’›GhôÚŒi¦ÙÙü ø3àÿ |-ø«âxº=Æ>·¶ŸCğŒéûÍF#{«€PŸ_^øçoêzæ…¬I¢jºGŠ<¯=¤w¿Ø>%µšÖê[IØªÈ‹"¯™m ,2Ïµ´İ¦Ö†˜iÒPq½Ùæ×zDrŞ´6k$’Ÿ1ÕùŠ­}™û|"ø?ñ×öÂøIğ·ãÿ ÄeøOğŸÆWºŸâoË*Å‹-«¼d¯ò¤rÊ69S†Àe<s,ÀGS’Råù\ğ3ŒÑe´%ZPæ·ËóĞø³WñVµ¨ÛiÚ6 ÿ ¹Ñáû%’2Ê€çÆN	õ¯³à¡?³ßÂ?Ù¯öºø¡ğkàÆo|}øqá{:}â„¥I­$ûMºÊöÆhÙâymKyRw‰º1ÙOÕ+r)İZ÷ÛğffknWTùoÓGø­‘´¸ŞH¹# dŸZÖ±‰„#î€99•âTZCIŞÌQ 'Üô«¡r=ˆè‰½Ó¹V(²Ä2ó×=…hªe“.Y[4ªb‰?y;$ç¡g8ó®ÓÀÚºïŠ<-£ÇçîÕ<M£Zm€ìeÈR9z~Ù†¥í$Œ«MS¥)3úYøc/„ãøû9øzĞ]\j~·Ò¼/ñL½bmín¡â»‰>îpbáxÛ‚x¯«üwğÆÒÇÂ¿³¦…ğÿ ÁZ?†cÕ|iâ=OLï:¡b³¬ ’ÑÈEzã<zÔiÔWw>F´ê·.EkŸ¬¢ğd_³&­àßú´šgÂøtâŸş*IÌ³j¸ÄnÒB<ÌBÀxQó) ×Gñïö€×m¿e½Å·şøã?…š_…4ïx¯Ã_­D2i„/”Zxäw"tVÚÎ‹œt×S*rµ™æ¾vÒ›»? lÆZÇÂ_húàm7@¿ƒSñ¡ˆÔ­"¹D·™Ÿ‚›Ëª³€rO íÍğİ->|=›Oøñá-WÂšdç‡¾i+$z€Šèîò¥•‘LĞ©_»æ°œpN~7<«8ÆSqüO¤ÊiÑn)«3é‚^ı¤¾şÂ§Ç|ugªß|NÓí#ñt:> °Í¥´vçt~d%Š¬¨ÌàH€’pXg•ı‘¿foÿ ?`ŠwŸ¬´x¼QñTŠŞÌÏ¨!e¶ŠR%Ûn_÷r¿0*œc¨89åÓê±¥£2Í¦*M=QøM©ø{Ä¾>ø±áé/u­F=7I½3ë¶ò´s»ƒûÆ3!ÜGlsšıı†~øKEÿ ‚èÿ ³7Æ‡Ş!ñ.‹¢|#ÖŒô½>i~Ó§ê“£‹Å1ÜcS€r’ü­{™_„–&rÅ«´cÅâ%„‚ƒ²îwğï‰<5áÍGÆ^IuÏx~úÃQÕ$ñ›äµ‚I@Éß¹ŠœmÇ8bFêı_ı¡~ ~Å6ñö—ğKãûÉtËæëñ›·)ËDfh¢¹?)NÜûìfO‡xhÕ ¥ıäÿ 3å£ˆN²³Oæ~Oü@O…_>4ØøáöŸa¨ßx÷AKÈ(‹¶™p±†›jå˜Ìv“Çé\Lß³‹õIî~6ø;Åéá_xKÉoøJ´ë„P³t~&‹–!ÆPœq_˜g©aëºSZ#êp´!Z¸õ=—öÒñïìû¤|ø_û>‡~!ğéçJ·ñ…’EizÛÀıæTÀa‹“Óšù“â·ÆŸ~Ñ~6ø}ğ>ÿ â_Ã¿šõ¤W·zÇ}2Á¬µ8–İ„º\$‹ŸŞ¹ş J’ráè¼ußÔ®J˜KNJÌúLÒ~|ø?ğÃá'Œ|C¥øoâwŒ¯ ÔõïhwMè¨éò@d‡æYTåó’ÙÀÚrË_>x+áîñZÏXø;©ø§ÃŞ4ñn‹­ZXø—]ĞÆéb•vá˜uÉAÆ‚AÇµQšáéª^ÆÑ}EG	Ôu&õ?Uo¼âÚãà?…¾%øÅïÂ+Ox?DğŒW×’´Ş&)!…â‚@§|Ì2ù¿„Çh¯6ı¦şüOøWğ#à·ş~Ò> _üño†µø?Yt“S·Ô¡¸BA„´ríIyÆL	`M{9C¥ëthOió^çGÿ Sÿ ‚sXüÖ<gû>ü@Ö>|4ø“mwiãmÆv¨×Kİ0;ˆN7”s³yV`N	ü‹ø±ûsşİŸğPÏÛ£á_Â?<ğ’xcÃzu÷ü!¾ø¥4mrò>Z[¯*ƒ Ç œªŒà×vgXŒ½Â¤y¥}Œ¿S]Ôœ¹l{×ÁOÙösı›´okş'ÿ ‚‹šÌv³]iŞXo˜Z^F¼B2*G&ó´à¸ÇJó/ºE×‡üA¤ü:Ğí´¿^ø/\ş×ñEé/Î²°Î¬EeÂÈ¥
+õå@$dšüÇJ¿74éİüÿ Ì÷oR¬›R½Öÿ Ò>íı¬´Ï§üƒOøs/‡%»¸ø»®G®)²²µ§Êª²nyHŠ0„="¾Áğÿ ¥ø³ğ"Š_ [mÃ^ğÆ“{—m5±Œ!”˜¶í‘†u<“ÅgO1Œ¨J•:n6Ó^ç™	bhb•Úgä'üßâuÏìí Ø|-±jºœ«÷Ã)Î@˜çŒ‚¹ï~Ï*ğßíK¬|Qğ=Ÿˆ®ümx|4ÓK=¥›—@=Ù+²gïëĞ×ç¸Ì5L)Vçm·ª·ê~
+Ø|^ªé'm´?à§³¯Ä¿ˆ:øQñÂ®4/‡Ş°ÑuÍ_ÄöVÛ!‘™U‡›Ğù½q9'šıø¶ß´OÄÙ+_ñÏ‹¼C¿Ã7ÚŞ¥,—rE‚C²|­æ¡	;‰æ¾ö“úÖrAêºØùâq}fÜ‘ñ—ìï'.<5â¿
+ü;Ò×Ä~$ø™ Í£İ@ˆæî$Q¿Ë
+r½xãÚ«~Æ3&™ã;ŠúŸ‰õ?ÃÚ/€.cÓ[ÃÙ½ÜÑ°ûrÄBŒ™àæW%ƒœ£ˆv^Dã$«¸×å»<Vÿ á÷íğÃá/Ä„ß®<7máë¿küBƒÄƒf«ò]Ñ]dÀb+# Üq“ŸÁ<C¦kÿ ´ÉºøuáïØx³R—Q‡[ñn©5¬¶Ïl»şÏê@³– 3ùVÀJª;×½ú™ıb¼é{]­ĞüQñW~;~Æ´oÚ/à§Šõ/øÂ%{Ë"+ÁŸ’QÑ‰Œ•>„sûÃğÿ öı¢>:şÎ>ñæƒğIñ_ƒt;ëİzwwu£™V@C~@Ñ‘Fr}M‘Ï7RT¹»³
+™ÖcŠ¥{~İ_ğN/øÏş
+ŸğcÁ_¶¯ÄOÚ«Â¯Ç[ÅÖ´X¾&Ÿf¶ºDVûDksN³;rd6|òA9 ~mşÎğmÚü]ø;ğ}í¾xÇÃ“Í}yá‹T6—¶Ò]BÄ|³¸¹'ƒœÔéÆJäÅCc’W)a§dÏ,ÿ ‚˜|ı±gŠw¶Ÿüe¨x/ÅÔñ…n³–Øo¹ÀÃ©«à®pÌ¿µçÂ¿Ú/Ç:f…ğÆÏâŸüEwâ_i:n›áËíZK«[HP$–%?4f1œTóÜdWç<AW—Õ)Så“ê}nSF®]EâªTRK¥µ,|>Ğî4¯„~,ñä^DúM”B®l¤¡‘ıv“€¤|Ç°ë_¿?¿d‚°§üÓÂ³\fñGíñwHÓô½.úÜ£Íwªêtr[qò„»çq œ(Íx¸NË(%W+µ­ÿ ÖœÏ]}[á?šÿ Ø·ãµâÿ |Y±ñ¡}¯=ç‹/uÜÌÌĞXYÄ€,@1»=É'•Óx»EÑÿ b¿†:wÀtÒßş-èXõ–‘q<·2ãx.æÏ'¦0>W4Ë01Ò­F’ÓD~‰‚ÌjÕÃÆ©½Û!ğ¾á¯|CÕucNƒW±ğüËb¶×+û¿1È$ƒíĞb¾iñ·‰<eğOÀéâHuà¸Õ;½RÀ+;åÛ€ eÜíŸ”g“\ÑÀâ*ÃÙQ›ØêúäaI¨TV[ŸjşÑz„~ ğ|¾ ø+àñÿ 	8²ßö[h‹ÆÎª!vG'ïs^íğ¿áOŒ´ÿ Ù¾=üDÓµO
+^kZl:Î‡eâŒ-Ä¶²E¼ŒçÁrÃŠõ0˜lÃ%n¦.GÍ<~[‹ªèP›•Ïfÿ Û3Åíœ~ñŠXÙø¾4'T‡P‡÷˜?)ùd#±ô5±àÏ†~ñÁOx‚1¥kO$W6—–€Œ'´®Ç<ç8ÍsÔÍ(b¹8ZO¶Ç±õ\b£:gìOì¯à_‚ãÂ?>'|T6£y§O øÃ¥ÃÊ·¹u*‚@U=G<ñ_$èş
+ñ¯Ã[|T†ÂëQğEãMoìDù,kÈäã8Àéô¯ ËsÊØz
+‚õÜùÇ-†"»•·n‡‹xŸTñ'ÃOxö+Ym-4vßVm7N˜pUTª¤íËquËáãµå¿ÄmoR˜ZÙ47'J¸(’f}Ã1ğXŒ`ôô¯€Y%c%Sg±O<¾³qè~ùÿ Á3¿fï|Pı”<?©ÜÍªxZñ„,ú¿‹g…d‡ÏU&Mò1’FÇt ‘ğìåÿ #øİû.xG^ø/à…ºGŒ~Â÷ÓÛÅ«7•s×1*KäËÁØ0Ê° æ¿{Ésü<:nJ-+[úLüÏ—fŠò­Ms]Ÿš?ğ[Ÿ|8øã­ÀzF ¾ ø‰¦ê‰¨hŞ'ğ­ÒùrAŸ3Kåò2ùIÇ<3^qûW|ñWíã-{ã·…fX§Òm×Tğò¸–+ecœ’r¨~PÁp9Éè+ã8»Œ2YÉá ù›Ñéÿ  ı“Âì—…«*üEUÂû#öPı¾uc¦ÏàÖu!ï¡·‚ş}©s)W2wxä}:×~Í±5Ş·uÿ 	4ÚªÙj–I,Ğ¼BCwo'1 üÃ¿½|Ö[ãñÔÖ7*‹åüô<w[€°Óx|3J¤êÒo†ß³ş•ğ[á¿‹õ/Z]xûSğµ­üÖsÇºU•âTdç†8c‘“1_Ÿ?².¯¦ZøæÃÂ_´ˆ¡‡ÃÚ"]ÄuY$ I§îÑGTÜ~ğæ¾“ˆÅÁ*XÚ<šnÏÄj`ãAûL,ùÓìo~ÓšS|tğ×…¼)áç“P‡EÓÍ¥Å³ä*²Jòn g¤wâ¾„ø«â_> ğõ¥¿Â;mBÚ{OÙØjºõÌŸèË8ÎS¸É$Àöò£…­Šq¯©¤]:ÓÃÉÅÅÅ£àoø&ß…<{ğ¯âÅËÏ|3Ô<ÔäğÅãÆ£u›,}Tc¯úŠı@ÿ ‚d|Dğ¯Àÿ ÚãâwÀn÷IÕ<?ñ®{}kÃwW’.ç¸Yö	ÏË¹Ù°£\1_³p¶iC7&·î|¿bq8Úü®lØøİà½wÅ?4)4¯êÚ&­$+o«%ñS$RÅÛæãĞñ¯İOŠ¾+RÒ<eâ]+ÀwšÅ„ï±ªßCl€…Ú4Å#`§¶õ'¦E}+Í0uäïIÙüÏ™§…ÄÂJó½â÷Ç_¦¼>3†ËâXÒu_[Oyqe|ä¨ b¹(Ë† 8¯¡>0üÒhè´_è>:²´×Å®«[ŞÄÂò7€90Ì¬ÑÈ«ŒŒüñšüß‰°XjâİÏ¼áøâ§R*Ú‚úGí)â™¾+¯ÂQõİbmZ]#N:Jîi]öQĞ I9Ö»¯Øwöaø«ãÏÛP\ü1Ñ­ï¼E¢[ÜÏ¬ÜŞÂò­˜“•Ã,Q†xn½k‹&á\b¥_ùc=´Íøƒ–`–‚N«]Úÿ Ùş	ãğçãÇÀ?ˆ?ş*xÛ^ğÿ Œ|?¯j–6^7m;%< 
+ƒç@#¿¯JûkÄ~ñ¿ÂŸê>×ô«=Ä¶úwÛ/…Û’Gd#c‡_˜§ óœ×êx<¯F©`ãî¯%¯à~MŠÍq“œäê=|Ùù¥ü¼Ñ~!è¿â‹[]@{•°µ¹fğÆçæl‘’ÁsÉÈëœó_ªß²§í—ãkükğ™ãßøîÒÓÃŞ¹ÒÀCm áÁ#hûÄœx$W›ät*bŸîSôİ8lç	N«±øŸÿ «ñgÁ¿ˆşø‹ÁĞ¼=â‹h-[Y:0T’K£.Íò€}ª9Éëšú³ş7ÿ ‚u¿Á‚gíğûÉ_[kšt:¶‡ÜÃÌÉ'`TûÒ)]™On8§á¾«R¶¥ÜUÚgÓğşyR®9Q­'Ôş5<-s$š™†bwª¸'8^ûsğ¥´é-[YmEäPÈï ùBÊ¾kòüáóAÆÛÖcã‚â©Y©#š8ŠY¹RŒ»EMuhæÜ&à„§î3_)Ô•ŞÇö•X§„r§ZØıı“¼y¨xÏÁçÃèï_ÃmÛùÒ`´PŒ°ç ñÛŠüçğÏŒ<Qğòıu]Kk8'Ì*N[=8£—Ç6I·ª?Ïø{CñPVmŸ |o£øÂúßƒ¼1uİÅºÇzˆÃ|¤å†ÏQéÖ¾0Ÿ^Ô¼ssöÍd.éNéXŸ›-×'ùWG'«Nªx‰lNSÂØœ}kFwfŸÂ_ÚcÇ¿µX­ïõk«½×úUïÏµ	à©9 Œñøô­¿|»ø›â]7Á^Ó'ÔµRâI%º?ñÈ{NçÒ¾‘à°VN¼Uü·98§†rlš„«ãêÅy3ö·ölı´µ(l­<Eğ÷Ç:†6šğŞO`³‹ _”Ø` Ø#¾˜¯ğŸìgñÃöJğÖµ¬ë‹â7ÃİMşÍ­ëı7I°2îH‚Á;HÉ~ÅT“Äá«Ê=æüïÂ¬[¡J*Gôãû ÿ ÁXí¡mM¿is'Šô_ì¨¦¸½ÕQd„N„€ß¾VA´œ¿B+ùğî“ñÆ:Oˆ¼;áËKkC¿ŒF8Uv Æàò:àôükÕÊ2N,§ŒiTæ‹î|î7…x£:UT>Œı½ÿ híö…ÿ ‚„xBßörñ}Á/kVV~#Òü9 {spÄşè…â3TÇ1_?øoönø©ğ>ÚÂ£ÙiñİYêßmŠWâ7 ù|œg’Ùõõxü‡R„©ãzG&ÉğXQÊësLş•¿f¯Ø›À4OÚøÄÚ^ãï5¬ÚlmH¯œE½”nÛ¹³Æ2ÔÃ…ı¼}â­Sáfã¯i7ú½Ô°K§ê:…,©0 ÛA'i89èkËÊq9vWMá«Fíy’çÙ.eˆ¨Ô›ZùñWãÇÄÙÃàÍ÷ˆ|7à;'ñf‡}¦j7ñmd&ÆNàr	àÓ=	'†ä¾ñî…â{_‰:c\xuõ³ê‘ÊË2>pHaà1ÍaŠÆe´ë§NOäqSÂÖÃÁ{F›D²Ïí3ª~Úß|MâˆÃ^ ğãı’æğªì}€ò»@ùXœq‘îx¯EÑ®şøKFO|6ÓN‘i1k{©T &ü¿*ğ ’A¯¤ã:ÒöoCYÓu.ãÏÏÚŸÂ5ßÁË¯İ\\iWşñå¤–·¾Hâ¹]©ƒƒ·$sÖ´~*XÙ|oñ‡‹¾ønı5ÍDĞ5kÅú–šçìöò’şğñÙ ú€G×­ÂÕÃËÚ©èÎ¬±4$é6ÕÑú%ğŸöGøÏiğsÁÿ şêšOÛ>"h·m¦HÈ³Cm4;“{ryééù¿à?ˆÿ µÇ‡4Ÿ
+|0ğd±x“Ãz<7^Ö,®Él–l"	µY£#,wv'œ°øzÓ”ãeØÏ„¯^SNçÚ–ş
+øÑ¬|XğïÃïˆšÅæ‰,—ÖpÍ¨[\?™–u¡?7İ<òTÄ€WÅşøïöƒğ7Æ¿ë?ôëVÂ×VKÍs^²İ*CmÑ0,üŒ07ƒÍx¸ÅZ¶-S¬¥ìß}¬a

@@ -1,0 +1,26 @@
+
+
+
+h1 {
+    color: gold;
+    background-color:goldenrod;
+    text-align: center;
+    border: hotpink dashed 20px;
+    font-size: 100px;
+    text-shadow: 
+    0px 0px 0px  blue,
+    0px 0px 5px  blue,
+    0px 0px 10px blue,
+    0px 0px 20px blue,
+    0px 0px 20px blue,
+    0px 0px 30px blue,
+    0px 0px 40px blue,
+    0px 0px 50px blue,
+    0px 0px 60px blue,
+    0px 0px 70px blue,
+    0px 0px 80px blue,
+    0px 0px 90px blue,
+    0px 0px 100px blue;
+
+    font-family: fantasy;
+   }

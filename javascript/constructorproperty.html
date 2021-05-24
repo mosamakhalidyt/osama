@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="constr1"></p>
+    <p id="constr2"></p>
+    <p id="constr3"></p>
+    <p id="constr4"></p>
+    <p id="constr5"></p>
+    <p id="constr6"></p>
+    <p id="constr7"></p>
+    <script>
+        document.getElementById("constr1").innerHTML="john".constructor
+        document.getElementById("constr2").innerHTML=(3.41).constructor
+        document.getElementById("constr3").innerHTML=false.constructor
+        document.getElementById("constr4").innerHTML=[1,2,3,4].constructor
+        document.getElementById("constr5").innerHTML={name:"jhon", age:34}.constructor
+        document.getElementById("constr6").innerHTML=new Date().constructor
+        document.getElementById("constr7").innerHTML=function(){}.constructor
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            background: black;
+            font-family: 'Great Vibes', cursive;
+            color: #88ff00;
+            font-size: 100px;
+        }
+         #clock
+        {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: #17D4FE;
+            font-size: 110px;
+            font-weight: bold;
+            letter-spacing: 7px;
+            border: solid 2px;
+            box-shadow: 5px 10px 20px #17D4FE inset;
+            padding: 50px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="clock"></div>
+
+    <script>
+        var time = new Date();
+        var hour = time.getHours();
+        var min = time.getMinutes();
+        var sec = time.getSeconds();
+
+        function mytime(){
+            
+            
+            if(hour<12){
+                sort="AM"
+            } else{sort="PM"}
+            
+            
+            
+            if(hour>12){
+                hour=hour-12;
+            }
+            
+            
+            
+            if(min<10)
+            {
+                min="0"-min
+            }
+            
+            
+            if(sec<10)
+            {
+                sec="0"+sec;
+            }
+            document.write("Current time is: " + "<b>" + hour+ ":"+ min +":" + sec + sort + "</b>" )
+            
+        }
+        
+        function mytime(){
+            var d = new Date()
+            document.getElementById("clock").innerHTML=d.toLocaleTimeString();
+        }
+        var my=setInterval(function(){mytime()}, 1000)
+        </script>
+</body>
+</html>

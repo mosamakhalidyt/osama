@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: black;
+            color: white;
+                    }
+
+    </style>
+</head>
+<body>
+    <h1 onclick="this.style.color='blue'">Click Text to turn blue</h1>
+    <div onmouseover="this.style.color='blue'; this.style.fontSize='20px'" onmouseout="this.style.color='white'">Click text to turn blue and increse font size</div>
+    <img src="img/bulb-off.png"; onmouseover="on()"  onmouseout="off()" id="off">
+    <h2 onmouseover="this.innerText='Thanks You';" onmouseout="this.innerText='mouse over me to change text'">mouse over me to change text</h2>
+
+
+
+
+    
+    <script>
+        function on()
+        {
+            document.getElementById("off").src="img/bulb-on.png"
+        }
+        function off()
+        {
+            document.getElementById("off").src="img/bulb-off.png"
+        }
+    </script>
+
+</body>
+</html>

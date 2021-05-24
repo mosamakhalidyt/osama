@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="F:\osama\osama\icon\fontawesome-free-5.14.0-web\css\all.css">
+    <style>
+        * {
+            margin: auto;
+        }
+        
+        body {
+            background-image: url(Sk.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            width: 1250px;
+            height: 1500px;
+            background-color: rgba(16, 0, 241, 0.247);
+        }
+        
+        .header {
+            width: 1250px;
+            height: 170px;
+            background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+        }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+            background-image: url(bg7.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            float: left;
+            margin-bottom: 10px;
+            margin-left: 30px;
+            margin-top: 10px;
+            border-radius: 100px;
+        }
+        
+        input {
+            float: right;
+            margin-right: 30px;
+            margin-top: 50px;
+            padding: 10px;
+            outline: none;
+        }
+        
+        .nav {
+            width: 1250px;
+            height: 50px;
+            float: left;
+            background: linear-gradient(to right, #cc5333, #23074d);
+        }
+        
+        .nav ul {
+            float: left;
+            margin-left: 300px;
+        }
+        
+        .nav ul li {
+            float: left;
+            list-style: none;
+            margin: 5px;
+            margin-top: 10px;
+        }
+        
+        .nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+            font-family: 'Abril Fatface', cursive;
+        }
+        
+        .nav ul li a:hover {
+            text-decoration: none;
+            color: wheat;
+            font-size: 20px;
+            background-color: none;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px black;
+        }
+        
+        .slider {
+            width: 1250px;
+            height: 450px;
+            border: 1px groove black;
+            background-image: linear-gradient(to top, #f43b47 0%, #0044ff00 100%);
+            margin-top: 20px;
+            box-shadow: 0px 0px 20px black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            position: relative;
+            top: 30px;
+        }
+        /* animation-name: osama;
+             animation-duration: 50s;
+             animation-play-state: running;
+             animation-iteration-count: infinite;}
+         
+
+         @keyframes osama 
+         {
+             0%{background-image: url(img/01.jpeg)}
+             10%{background-image: url(img/7.jpg)}
+             20%{background-image: url(img/4.jpg)}
+             30%{background-image: url(img/B.jpg)}
+             40%{background-image: url(img/Header2.jpg)}
+             50%{background-image: url(img/images.jpg)}
+             60%{background-image: url(img/images\ \(1\).jpg)}
+             70%{background-image: url(img/images\ \(2\).jpg)}
+             80%{background-image: url(img/images\ \(3\).jpg)}
+             95%{background-image: url(img/maxresdefault.jpg)}
+             99%{background-image: url(img/md.jpg)}
+             100%{background-image: url(img/The-Ultimate-List-of-Best-Travel-Movies-1-878x585.jpg.optimal.jpg)}
+         } 
+              */
+        
+        .box {
+            width: 350px;
+            height: 310px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 2px solid black;
+            border-radius: 6px;
+            float: left;
+            margin: 5px;
+            position: relative;
+            top: 20px;
+            left: 10px;
+            transition: 1.5s;
+        }
+        
+        .box:hover {
+            box-shadow: 0px 0px 10px white;
+            transform: scaleX(1.2);
+        }
+        
+        .heading {
+            text-align: center;
+            font-size: 30px;
+            font-family: fantasy;
+            margin-top: 60px;
+            color: white;
+            position: relative;
+            top: 10px;
+        }
+        
+        .boxes {
+            width: 1250px;
+            height: 600;
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo"></div>
+            <input type="search" placeholder="searching.....">
+            <div class="nav">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"> Home</i></a></li>
+                    <li><a href="ok.html"><i class="fas fa-id-card-alt"> Contact</i></a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"> About us</i></a></li>
+                    <li><a href="login.html"><i class="far fa-envelope"> Log In</i></a></li>
+                    <li><a href="formtag.html"><i class="fas fa-registered"> Register </i></a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="slider">
+
+
+            <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="data1/images/13.jpg" alt="13" title="13" id="wows1_0" / width="1250" height="460"></li>
+                        <li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_1" / width="1250" height="460"></li>
+                        <li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_2" / width="1250" height="460"></li>
+                        <li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_3" / width="1250" height="460"></li>
+                        <li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_4" / width="1250" height="460"></li>
+                        <li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5" / width="1250" height="460"></li>
+                        <li><img src="data1/images/7.jpg" alt="7" title="7" id="wows1_6" / width="1250" height="460"></li>
+                        <li><img src="data1/images/8.jpg" alt="8" title="8" id="wows1_7" / width="1250" height="460"></li>
+                        <li><img src="data1/images/9.jpg" alt="9" title="9" id="wows1_8" / width="1250" height="460"></li>
+                        <li><img src="data1/images/10.jpg" alt="10" title="10" id="wows1_9" / width="1250" height="460"></li>
+                        <li>
+                            <a href="http://wowslider.net"><img src="data1/images/11.jpg" alt="bootstrap slideshow" title="11" id="wows1_10" / width="1250" height="460"></a>
+                        </li>
+                        <li><img src="data1/images/12.jpg" alt="12" title="12" id="wows1_11" /></li>
+                    </ul>
+                </div>
+                <div class="ws_bullets">
+                    <div>
+                        <a href="#" title="13"><span><img src="data1/tooltips/13.jpg" alt="13"/ width="1250" height="460">1</span></a>
+                        <a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/ width="1250" height="460">2</span></a>
+                        <a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/ width="1250" height="460">3</span></a>
+                        <a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/ width="1250" height="460">4</span></a>
+                        <a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/ width="1250" height="460">5</span></a>
+                        <a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/ width="1250" height="460">6</span></a>
+                        <a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/ width="1250" height="460">7</span></a>
+                        <a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/ width="1250" height="460">8</span></a>
+                        <a href="#" title="9"><span><img src="data1/tooltips/9.jpg" alt="9"/ width="1250" height="460">9</span></a>
+                        <a href="#" title="10"><span><img src="data1/tooltips/10.jpg" alt="10"/ width="1250" height="460">10</span></a>
+                        <a href="#" title="11"><span><img src="data1/tooltips/11.jpg" alt="11"/ width="1250" height="460">11</span></a>
+                        <a href="#" title="12"><span><img src="data1/tooltips/12.jpg" alt="12"/ width="1250" height="460">12</span></a>
+                    </div>
+                </div>
+                <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">css image slider</a> by WOWSlider.com v9.0</div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="engine1/wowslider.js"></script>
+            <script type="text/javascript" src="engine1/script.js"></script>
+
+        </div>
+
+        <h1 class="heading">New Movies</h1>
+
+        <div class="boxes">
+
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+            <div class="box">
+                <Img src="img/iphone 8.jpg" width="348" height="200"></Img>
+                <Center>
+                    <h1>I phone</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button>Read More</button>
+                </Center>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                ªŞÛHiY"œÆåèEuÍ9Ú•¤™EQö‘‹w>ğ¿ÂÍgÇoÎm'Øà¸r—vñ7’q…ÀÅ}Yá†÷
+5-<]Î½£_Æ¨FG7©^Ø¯Fø'¦xŸG·ºÑt(é23<—VÁ
+3ÆŞõÔÙ\êzg‰<Ûêî(Ø"á%‡VÒ°Æb¤ß#JÖ9©RTÜ¤ô¹òOíÇ«¥æ©¡éöñÆ¶–ãFˆØ‚>µòİ}«ÿ ñ}‹´ÏM‹—y™fxÇ.xêzæ¾*¯¹Ê$¥……†Ì[UÈodò­™°$ÿ dÔšN¬P®`eÏtÏ$)¾Sò«€zô
+jZ-¤
+×öÑ(z×dâ¥°ğ­Å´-re åŠ€%\Œ×weá›_*5æŸlK ¦²[Åº$[Kl6~S*{6şÕt‘n~ˆóœş(hzQœ^è×‚:$Ìû®Œ2Œ¬ô4ºWÂ_LÔbMV•FõAÛ¸ÏJ±§i²o ]äå«Ô>ø3PÕ¼C§4×-¼Ñ­Ëcµy5±5!ÉTT'+^Æ¾¯¬üBÒ|kåi7QÅmmJê;:×~Òß	õ}zañîñ>Õ3Gos8õôF¥¬iz•çheŒJCá‰düTÖt¯ü×’7¶¹Œ¬À@Úk‡	š®»3Ó«BŒ£ñŸxŸÃPÍáÙ)2${—¥p~²–o)¥Ü¶ê3õ"½{O”j'Ëê$,¥ydÏ6Ÿ©ßZ®UãœÂ‹Øäñ_¡B\ÊO¥Q\öGÙšn<UğOÃÌº¯Øm
+UV#ŠâtïƒÓßÌÖ.§Ô†~b§ïW‡.,¾xkO_#dv1äïšáu‡wáL‘Í§R«_œËQÕ”Sêw:1µÛ9È¼à«"³éz`f^x§6±/ö{;dÇ07
+©s¡±fG¾d#ªƒŒU9,áÒÑ]5#2“Èfæ»!*’ÖLÅÊ1øNÄæı¤¼šêw•v¸}KQ.%ï‘óW²ÜøÇCµÌwjXçˆÈ5‹©_è:‰ó,4è¤
+>rØ¯V“KsšS—sÁµBc!w´gĞT#®óÅi>ÍPªòÁ{W	ÉÏ5÷9mœOõRÈÊ	ï_J|)ı¨£ğ†tmK›ûk;E8HÔ~L9¯šÎpqSØ¹ŠpFvœçó®œzıİòÔ¥RÌıÑho İZEu¥øéµØwİFCIí•êşı­&¼·Hn&‘ $ÿ ½ï_šZâÆêB $òOZô­Zòö•–T8í!¯”«Ïz'Õ}^3VGè•¯í,÷WÑFó²@ÇØt•éïñßMÿ „|A3ìó_šºˆgg¯$
+GRÙÅ<øÏZÒî­uë°²GÜ¿•b±Q„°7Øû—ÅŸ/õm0%®Öã­Ä’í'è:×xßã¥¦‰¦^h÷Zv©tn"À¹C*ŸÇµ|×}ñÅLì5O;ĞÎ»…cOñ§ÄW£¸òŒ|Ã'šËƒ£™QJ»m+;y%‡—4{XúGı¡ ¾H-ÓDÔ5[ˆ%#Uàw'=+Ãş.|bOxßQÔ<MÕ¹¦@ği6Vê+g |äõÚüñöa§ëš†¯cöŒéö["¼®Iâ¼Câì«¨x×^¸r¾cÜ±`8V«/§VªÄOWeä¼wVTâé½‰4[XÔtë{Á«_•Q œñƒÓï~&øãáßˆŞ ±ÑõM/RºÕ,ÕB^Æ‹ò¸êNkçß¬3é.Íä±Pòo9º´e’ÜîVäŒv÷«ÅdØlTéNí:{5¹<eZtå×F{Â‹z_Ã[MN+­;R½›PD«òqŒ×ÏŒ:¿ÅeÏöeg+ªaNqßŞ»‰µèííR`9|ŞYÅyç‡5xïüu&¨À¬jÛ|ÎµXl«…ÅOBüÏ{Š®"u!
+-ü;Bè~Ò¢Š’ØQÏ÷kŞey,ô¯_jÆæÊ8¼•ã
+~kæDñšØ\:Ü|í=j¶‘ûRë^°–ÃEšà¸É“í¬ƒ>ÙèkÜNG!úñgâúfœ·7—²>Â.XÔWæoíÅâëŸ|[³¹¼hæ:˜Û6å$g½bøÓöñ7Šä1jZ ’01´'å^9©k2kws#y®äbIÙ†oŸSğè¦æŒšôÓĞò^ã¨¦ƒëK‘@…¢Š*…`¢Š(‚€qE	 '4QE1¢“ñÒ€KšfhÍbZ)”g	¡ôSAÁ¥È ‘h£9¥Á ¢ŒbŠ ]Ô»©´P³šî·ĞÓA43­ô4Ò/ÜO÷Gò¥¤_¸ŸîåK^©ÄQE „âƒÒ’€sEP=BŠ( 5œQºœÒP0¢Š( ¢Š( ¤'™¤¨ ÎMQAH(£"š%Q@'­-!ïô4ŸP[£ñAÆµ'Ò²+[Åò“ıÑY5ñÕİª6}ºQEıU}ö;…¶E}'ğÏÅ6Úü(ÑN©7xëåìyëZ×¯¼=v·6SÜ»{^dğR³Øó3Lµãé¿eñt$-,*ö«(ÙÁæ¼7áïíktÛZDßwÍÏïºİ†©mÖW\Fã?+€E~«…Ça±)5;3ñ\v_ˆÁIª°oĞÒ´°–@)Ú;ÖÍ¥ÕÖšábw'ı“ÍY¶¾Ñ´µ]ZŞÉ®÷V'‰ÿ h¯…~cæêë¨Èœ˜ì×säÄæ(É©;“…Ê1X›Jœl{_€>,k1ÃÊ£®îkºñÏí3«è>ş&Ò8a-#OÀ<WÂ¾"ÿ ‚ƒhöÉ…¼"flan/$ Ã¥|Õñ3ö†ñŸÅ&¶¤b³s±[ü©Cë_ŒÇàç&ãOÓrü³N1Iè`üZñ`ñïÄkáR3}tóA…5è~ğ^¬xfÖşêØo?)çï^'i¹ºŠ7‘bBÀ#Ö¾ˆĞRÏFğêiñê\ÆD™àò°JI¹Lô3uZO[£Î¼E%·…¬u;8-ãÌò1ê«\§†Î{ân\Fª2w«¿æx‚R²V•<W'“ë\u*(×Óc»AÏïÉÜö¨üc¦Ùé²[[È©+…ŸPW¹y£egÉ95È'¹¡]—8b?Ú®a:©&*Yg³m¦wšT¿h!mÄİ+B°<ÄÙI“Ş·ëÕ¢ù©¦yu©û9¸™~&Ò˜z5r¯Yã_â zæ»b3=£Œq_HşÀ¿
+<!ñFûÅ¶~*Ò† öV¾}´Çø[Šòó
+Š¾Ïc­3æËİNA¦Xé1L~Å óvg‡sÜı+vÇâ§àßI¦h—­c6¨äİÉ	Á)ÚºO	øvÍÿ h5´Ô4bújnöì¬8ã•ÜşÜ~ğã­Oğ>™•€µFaş#Øú×q‹„-ñ³¹àz§‚5}2ÚÖæñT­ö2$ÜÎj;ÿ kZXß=ƒÁš"BOM{F»û?|D¼Ñü!5Æ“¥¤+Û‰Ämsr9¬Ó/Šş&øÂ? Yé	.¶—~dpoë·ïX,G´M±ÎIqká-CÃ~ ÷ñI’?3jœ‚C]§i|ÚÎ›a&y¿y‰OJõ|	ñÕÓjºìº'“œ‹äQÌ$’½w.sŠâ­5xÛÃ°èº,·­¤k	#¹¥+ÜÂ¸*UŒµ>Ã/¨¨Ğ³8¯øzş_M£ÅyÖ-ÄÂ¦:îô£MğÎ¯¯kod#Y¬áİ#«|ª‹Üö9~x¾/ëšƒéÖwOdßÚY¸_5S$zŒW'ğ·ûwâŠ<JúÆ¶mk%´O·ÊAüYõâºéU´u>oÕI¹#
+ïÂZ»¥Ü]E\[ÛH"i”ıÜô?N+’Òü«_›¶‚Ûˆ¥hß{rÏØ
+õO‚óø¯XÕ¯|;á­)u;•™æÎvàÆ™Ü1Şª|9¾Õµ{Uğ•–€—ºô—¦ê42ÿ ©tÎTúÖÛ±Æ‘äÖzf£}|tû{iğ?–±“ÂäÖŞ¥á­rãQ²ÑÍ²¼÷
+º	2­àÓîõ-SÀ>8ÔdÕ`_·$î·p{€kÔ´ß†~:ñ—†|[§hÙxz2E£Í8˜ÿ ´OéU<E¢‘QÕ?ø¯E¹Ñµ³ºQÄ|:vŸ­a*ğFk×uŸ‡š¾µñbÇÂÚÈÆòúuO¡‘U,Ny"¾‰øÓáo„_²ö«¡øjëÀ²ø©®-£–ïX–b¡‹uÚ¯k",Ï‹ô+†Pğü~u×I¨>!ê^Ô~&İ\øFÕìôy6îy^*©¯{	.h\ññßŸÄŸï¯óışÏòCüÿ `˜ôş{×ï¦¾¿ÌWôğÎ¼åãşAÿ è5–?d^ó¿‹ß¿³.ïo"¸&ßU‘ÄŸôÈ·LWÃÿ üU{áŸˆ^ğü0:eÂL„õÀ8õ¯½ÿ h«Ï&•¤Ùè:1Õ®&»Rå:"Õ™ğçöUĞíŸ‰<enšß‰bo29˜ü‘ª¡}Ey4ëMTÔú8ÊÇ]Ïƒíõ¬ÿ k×|Oeq¤iW·¥šKˆHR¥qÔŠğŸ_ÆŸ¼Q¢[Ü	­bÔ$’ÉÔàlÎG5û—â_h^!N££Y^•(¹_u¯Ê/Œ_±·‹õÿ ÚVM.(4í>öàÏ ÈU=Â½\6-B¯¿³<LU9â›£ëØö˜²ñÇƒ“ÀúåçüTÚ`0ÇÍ´EÛo®+âÏÛ—NşÍı£µØâˆyM'š¼kÕ~~ÊŞ/ø[ñNñ³)±¹´9·Š–œôÆ{g5ï?ÿ àŸöu•ñ$:õÜzÀVh®ş~zã'µsbœ#VñêiNœ/{tsSxv~ÃÚæ¡pÖ«ÄW’ÛHÛ#oã_^9–Oø‰¬¦Ó^ÔÈÉuZ69\ıFs_±w ¯uï€ƒáî©w‘
+Ä“7ğà‚÷â²ş%~Ä>)hv#Z³™u{[t€j06Ölr;Ö*h‰E½¯ƒ‘â¯Ù—B¸Ó-¡¶´“ND0[à&>aĞıkOÁúDzF‹Û!d˜¸ÉQî}kÎ>şË“| ¾šãNñn­u¡´mÿ ÙP4[±ÁÅzn…|¯à{‡t#È“çÀç¯¥xxÚWª¤W;A£ı¶t“¬üÕ¯ @µPì	áÖ¿<¿g…1|cø—¥è†æÚÊ×aG~LvúGñAÿ …ƒğWÄZ­¤÷Ÿj…–İ»î?v¾Gı™¿fŸ|1ñÄ%×­î“P³“Ë·µ
+pWë]Ñ«ìà¥mJ¥vİ™ö½

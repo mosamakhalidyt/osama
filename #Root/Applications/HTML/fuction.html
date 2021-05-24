@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <button onclick="myfun()">read more</button>
+<button onclick="hidefun()">Hide</button>
+<button onclick="showfun()">show</button>
+<p id="result"></p> 
+ <button onclick="myfun()">profile</button>
+<button onclick="myhide()">hide</button>
+<img src="img/c.jpeg" alt="img">
+<p id="result"></p>
+<table>
+    <thead>
+        <tr>
+            <td>id</td>
+            <td>name</td>
+            <td>address</td>
+            <td>image</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<script>
+
+
+    function myfun()
+    {
+        document.getElementById("result").innerHTML="Lorem ipsum dolor sit amet consectetur, ";
+
+    }
+
+
+
+    function showfun()
+    {
+        document.getElementById("result").innerHTML="Lorem ipsum dolor sit amet consectetur,";
+    }
+
+    function hidefun()
+    {
+        document.getElementById("result").innerHTML="";
+    }
+
+function myfun()
+
+{
+    document.getElementById("img").src="profile.jpg";
+    
+    document.getElementById("result").innerHTML="gifeshfoiudhnoisjmfoigsdmnvoifsnfiovsdibvnfsvdsoiendsnvdsnv";
+}
+
+function myhide()
+{
+    Document.getElementById("img").src="img/c.jpeg";
+    document.getElementById("result").innerHTML="";
+}
+
+
+</script>
+</body>
+</html>

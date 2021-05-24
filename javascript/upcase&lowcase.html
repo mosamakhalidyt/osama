@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="uppercase()" >click to upper case</button>
+    <p id="upcase">hello world</p>
+    <button onclick="lowcase()" >click to lowcase</button>
+    <p id="lowcase">HELLO WORLD</p>
+    <script>
+        function uppercase(){
+            var text = document.getElementById("upcase").innerHTML;
+           document.getElementById("upcase").innerHTML = text.toUpperCase();
+        }
+        function lowcase(){
+            var text = document.getElementById("lowcase").innerHTML;
+            document.getElementById("lowcase").innerHTML =text.toLowerCase()
+        }
+    </script>
+</body>
+</html>

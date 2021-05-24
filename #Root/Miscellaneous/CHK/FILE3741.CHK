@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="F:\osama\osama\icon\fontawesome-free-5.14.0-web\css\all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <style>
+    /* body
+       {
+           background-color: #E9ECEF;
+       } */
+    nav {
+      background-color: #c5c5c500;
+      border-bottom: 0.1px solid #000000;
+      position: fixed;
+    }
+
+    nav ul li a {
+
+      background-color: rgb(230, 61, 61) !important;
+      color: rgb(255, 234, 234) !important;
+      margin: 5px;
+      border-radius: 10px;
+
+    }
+
+
+    nav ul li a:hover {
+
+
+      background-color: rgb(190, 0, 0) !important;
+      color: rgb(201, 200, 200) !important;
+    }
+
+    nav ul li a.active {
+
+      background-color: rgb(165, 3, 3) !important;
+      color: rgb(255, 255, 255) !important;
+    }
+
+    .img {
+      width: 50px;
+      margin-left: 50px;
+    }
+
+
+
+    .container {
+
+      background: rgb(255, 255, 255);
+
+      display: flex;
+      flex-wrap: wrap-reverse;
+
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .item {
+
+      background-color: rgb(255, 255, 255);
+      margin: 10px;
+
+    }
+
+    #item {
+      flex-grow: 3;
+    }
+
+    .btn {
+      background-color: rgb(165, 3, 3) !important;
+      color: rgb(255, 255, 255);
+    }
+
+    .btn:hover {
+      background-color: rgb(158, 52, 52) !important;
+      color: rgb(201, 200, 200);
+    }
+
+    .progress {
+      height: 20px;
+      background-color: rgb(138, 138, 138);
+      border-radius: 50px;
+    }
+
+
+    .p {
+      text-justify: inter-word;
+      text-align: justify;
+    }
+
+    #col {
+      float: right;
+    }
+
+    #col2 {
+      float: left;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #000000 !important;
+    }
+
+    a {
+      color: #000;
+    }
+
+    #h5 {
+      color: rgb(185, 0, 0);
+    }
+
+    .card {
+      background-color: #E9ECEF;
+      border: none;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-dark navbar-expand-md" id="header">
+      <img src="img/programmer.png" alt="" class="img">
+      <button class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item"><a href="#" class="nav-link active border"><i class="fas fa-home"> HOME</i></a></li>
+          <li class="nav-item"><a href="#one" class="nav-link border"><i class="fas fa-info"> ABOUT</i></a></li>
+          <li class="nav-item"><a href="#two" class="nav-link border"><i class="far fa-address-card"> PORTFILIO</i></a>
+          </li>
+          <li class="nav-item"><a href="#three" class="nav-link border"><i class="fab fa-servicestack"> SERVICE</i></a>
+          </li>
+          <li class="nav-item"><a href="#four" class="nav-link border"><i class="fas fa-blog"> BLOGS</i></a></li>
+          <li class="nav-item"><a href="#five" class="nav-link border"><i class="fas fa-phone-square-alt">
+                CONTACT</i></a></li>
+
+        </ul>
+      </div>
+  </header>
+  <div class="container text-center">
+    <div class="item" id="item">
+      <h6>Hello, i'm</h6>
+      <h3>Osama Khalid</h3>
+      <h5>UI/UX Frontend Developer</h5>
+      <button class="btn">Hire me</button>
+    </div>
+    <div class="item" id="item">
+      <img src="img/n.png" alt="" style="width: 800px; height: 500px;">
+    </div>
+  </div>
+
+  <div class="jumbotron bg-white text-cente">
+    <H1 class="text-center" id="one">About Me</H1>
+    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ad!</p>
+    <div class="container">
+      <div class="row">
+
+
+
+        <div class="col-lg-6 col-6" id="col2">
+
+          <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus reiciendis maxime
+            distinctio placeat itaque non voluptate facere assumenda architecto a. Aspernatur, neque quas ex eaque et
+            rem corrupti aliquam fugit.Eaque neque assumenda labore incidunt, mollitia vero a animi iusto, iste dicta
+            rerum, voluptas odit alias. Dignissimos voluptatem quod quam, explicabo animi asperiores corporis
+            repudiandae nisi, quidem debitis voluptas quia?</p>
+        </div>
+
+
+
+        <div class="col-lg-6 col-6" id="col">
+          <h5> HTML</h5>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 90%;" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+          <H5>CSS</H5>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 60%;" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">60%</div>
+          </div>
+          <h5>Javascript</h5>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 40%;" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">40%</div>
+          </div>
+          <h5>Bootstrap</h5>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 50%;" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">50%</div>
+          </div>
+          <h5>Jquery</h5>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 40%;" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">40%</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron text-center">
+    <h1 class="text-center" id="two">MY PORTFILIO</h1>
+    <P class="text-center" style="margin-bottom: 50px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Corrupti, tempore!</P>
+
+    <img src="img/bootstrap-1.jpg" alt="" style="width: 300px; height: 200px;" class="img">
+    <img src="img/java-script.jpg" alt="" style="width: 300px; height: 200px;" class="img">
+    <img src="img/css.jpg" alt="" style="width: 300px; height: 200px;" class="img">
+    <img src="img/html.jpg" alt="" style="width: 300px; height: 200px;" class="img">
+  </div>
+
+
+  <div class="jumbotron text-center">
+    <h1 id="three">My Service</h1>
+    <p style="margin-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="img/web-design-brush.png" alt="Card image cap" style="height: 250px; ">
+        <div class="card-body">
+          <h5 class="card-title">Web Design</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/diamond.png" alt="Card image cap" style="height: 250px; ">
+        <div class="card-body">
+          <h5 class="card-title">Diamond</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/camera.png" alt="Card image cap" style="height: 250px; ">
+        <div class="card-body">
+          <h5 class="card-title">Photography</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/settings.png" alt="Card image cap" style="height: 250px; ">
+        <div class="card-body">
+          <h5 class="card-title">Web Develoment</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="jumbotron">
+    <h1 class="text-center" id="four">My Blog</h1>
+    <p class="text-center" style="margin-bottom: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Voluptates, reprehenderit.</p>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="img/blogs.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Designing |21/03/2019</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><a href="#">Read More</a></small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/blogs.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Designing |21/03/2019</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><a href="#">Read More</a></small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/blogs.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Designing |21/03/2019</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><a href="#">Read More</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container" id="container">
+    <!-- <h1 class="text-center font-weight-bold my-5 display-6">Signup!</h1> -->
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <h1 class="text-center" id="five">My Blog</h1>
+        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, blanditiis.</p>
+        <form>
+          <div class="form-group">
+            <label for="user">First Name</label>
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <label for="user">Last Name</label>
+            <input type="email" class="form-control" placeholder="Last Name">
+          </div>
+          <div class="form-group">
+            <label for="user">Email</label>
+            <input type="password" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="user">Message</label>
+            <input type="password" class="form-control" placeholder="Message" style="height: 200px;">
+          </div>
+          <div class="form-group">
+            <button class="btn btn-danger btn-block">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small stylish-color-dark pt-4 text-success">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h1 class="text-danger">Let Us Talk!</h1>
+          <h6 class="text-light">Use the form below to drop us a message</h6>
+          <input type="text" placeholder="Name" class=" bg-white">
+
+          <input type="text" placeholder="E-mail" class=" bg-white" style="margin-top: 10px;">
+
+          <input type="text" placeholder="Comment" style="height:100px; margin-top: 10px;" class="bg-white">
+
+          <button class="btn bg-success" style="margin-top: 10px; margin-right: 100px;">Send it!</button>
+
+
+          <!-- <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p> -->
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4" id="h5">NEWS</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">ELEMENTUM VELIT</a>
+            </li>
+            <li>
+              <a href="#!">CONSEQUAT</a>
+            </li>
+            <li>
+              <a href="#!">LOREM IPSUM DOLOR</a>
+            </li>
+            <li>
+              <a href="#!">SIT AMET
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4" id="h5">FOR PARTNERS</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">SIT AMET</a>
+            </li>
+            <li>
+              <a href="#!">CONSECTETUER
+              </a>
+            </li>
+            <li>
+              <a href="#!">ADIPISCING ELIT</a>
+            </li>
+            <li>
+              <a href="#!">PELLENTESQUE SED</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4" id="h5">NAVIGATION</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">HOME</a>
+            </li>
+            <li>
+              <a href="#!">ABOUT</a>
+            </li>
+            <li>
+              <a href="#!">RECENT NEWS</a>
+            </li>
+            <li>
+              <a href="#!">VIDEO REVIEWS</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <hr>
+
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1" id="h5">Register for free</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+      </li>
+    </ul>
+    <!-- Call to action -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" id="h5">Â© 2020 Copyright
+
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+  <script type="text/javascript">
+
+
+    $(document).ready(function () {
+      $('a').click(function () {
+        $('a').removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("header").style.top = "0";
+      } else {
+        document.getElementById("header").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+</body>
+
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                          }
+  </script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               äÌş³-ßqÓ=Û6İ8?³ğø3O:ŞÏ˜º¾wCSsıÔôøôì`Œíà-ß÷+*j_sóÛ}_ûñ£H‰ŠéìĞ±Sû(r±‚¼i¨ìÜÔ{s±èêß›·ÆÁ|VT)
+|]‘I1Õ²Î®.ĞfÏíÛcŠš‘ª,o;3:qÊqH¶è5×udç²‡ìÏçòÅœ§¥Òİëó…bßÙã§Ît<KÂD–e$+G©‡jÒkZ¶š	­©£úÆ[^±®©w.»°sçŒ5êv_ßxYu]{C	‚‰©áÇvz]¿å–Öú®#‡ìÙ½hDOû†úšÆÁ±>JƒÌììÜ\±­~kEy}&7rúô±‘‘éúÆæd"=pö„íÎW¤[^yû[[›;FÇ‡vï{vzvª²¢¾½uM…V~¬ïÈÔìYs¯¨ë¦ªÄ\—ÍMç€ÒÔÖv%â¦ë/=|l.“mmlg„÷ÑÀmª[÷ÚŸ{gUYİıûİ7:2•NÖnØ°>—/ä=÷‰ôÌSOœ9Ynj¬í‰áŠı÷?±{!3Œ5Çâåîz``ô”ï[É”³-Ï±h¼²Xİî]»ÇGG-ŞT×nàÄÁ#GNõ·l«<YçËÒs;wV¤«î¾ó¦ºÆ³CıÏì|brb¦½yÍÚè6tjv,“™ŸÊÁ`–*‹=µ÷á\n*»¥½¡kßá=g‡FË*kkë3ÙÌ3‡<İ"—Ëğe_ê¾¸W²—q ‘˜8JÉ–ˆ]½(v%a±ĞH^Êc÷‘`9\vK|U‰P?·°Ppòf:éÚÇ¶MÙã	EAÉ9¦™=k6T&kwïŞèÀ1Ï/ÌÍæòåé{6oØ61{jdh„xêÚ–-u©ÄÉ¾C;÷=È®¬Æz×¼¢·gs.“}ê©§<b¹™7TÜ»¾³«cİBv’²€o¨0Û_p|’ŠÇb†1>6i‹#£Ö‚5>{v.{ºº:íĞœåæ4œeÎxÂ|§Øu|Œ4MWàQˆg1)Óg>!¥6ÆÀ ½şşšŠÖ®æ-\}!28ÔG]ãÆënTUY‹£¹ì˜uÂkïX[•®==xâàñ§š×Í„û€
+äÙ~ 	‘Œ±¦!M&µ·àNçI™W+×¬i/˜ÏÌ:ÙâôšÑ¦Šòş¡cûíÈä&Ê+“5víyæÈáCR@¡uOŸ=fÆÍ·½Â\îÌÙ±9ÇSìÂìøôS»î›HÅ[×¬ë1Ì8R4¤è-íkëºOìèÑoÍg'eE¯¯:}÷oªkªB<UÎĞ©ªòåÂ²,9ÅâÄÔ@™Y»eİÍ£c}<òé©ùÖ›z6V”•éqlÍ[[¶½ÂŒWíÚùÄÑã{(ËBdÙ;Ò·Şóª;¾ñoC@éjê*{º7í‚O}ÃÄS™¡ª
+x=¾åe‹ó–¬ú£}ÇOîõ”y]£>t	1O®®¬ïíÜhÛV6»7ôœ5ƒâ20š‚)NÎlÇ7Ùä9xS×oÛÖ\ÕğØ¾=»ë1Ë—˜>}ËkŞµaíæ¾‘ç†F3Á­[ï0ùá'8=p”)¶„t%•ŒcBíd<½qİæµ½s¹é»<•@Ö˜¬0ÁÃVúkøT'[Ü·ZŠ2¸GÁÕËš^‰¤I‹+rJB‘Cœy<pJ×4€ˆ¢W|nÏŞ‡‘dPÑzÓõohªë BCZY]]UY£Jj[këúŞ_J$UËu-‡êŠ7’±„Bˆe˜ryYbjnäìÀ‰dŠÅ+Ó¹BğÿØ{¯&¹®+]pÛãÒ—÷…* 
+ t\Kê¾íîô˜‡‰‰˜pcæaîËü™ˆy¸ó06n;©»%J¤è	:xBå]Ve¥9n»Yûd éª[$»Š[©$È“yLõ­oïµ¾¯RÊùÆçyôÃ¾êåTÏo®§ 0yâú¾¿n@dÆD9ŒåóşêòÊí{7NLŸŸœúïVÖkkáòúÂÊÒzK%n9Ì1Zy¶6šÛë½¥aÇåJ!À«DÅIs×‘	äû2Ë{ÔYÛ†Gœ!—;õ2I +˜éH†˜IâÆˆ„¥¢·/WëË~A»ùB*Ú‹ÿ©Ë’ fÕl¨qãî'o~úw©NFÿøÕ¿zöÜ³‹Û×·®WºàààÌ¡­ú¶P­\ª¦±¢ÜŸ<xæä	»,¹nw¤EœÚµAæâbw¾«¿·xu«¹Xè!9+’(ãJ+ït÷kÃnÍÜjÅ›ÃŠI’®o<¼}ûòÁ¡ƒå¢Ÿ<Àoê" .£oòàÿ¡dkkI¨zw¹(ÑBX±"–+TŠÅvO9vú™C«C¸†!|YK±Ç[Zßl„+€(@\İ^˜¿S«mO»q·¹rx¬ï—oüZáĞÏÙ)dÈZ–DiT­.çÏ<?Ğ;Pß\››˜›½ï8›££#===nöTîÏİ‰Åv¥{hxt¬ÖÜ¾rã
+÷ÌøPOé¥•û×f®?uâüààÀÆÖm
+)–‘«UàpAÎªb‰£$E”;òtWw­Ù|ıİ˜_½èÚ÷x¢¢¬âÓõË=½[nHv[L®:£W{b=r´Ke…½FBÓ¶ÃŠDH·ºhğh®‡ÉXÄÊ–Zy˜D	cIœ ÑÓæüÂ¬çEÜ…·$ÍÆl¬7êõ-?çhH¯ñÇ"l5£HSnËªëÕÕµeM«˜ ö4ÂôÖÌÅZcB²çû†É‹*­kÛ›½ÿAm=ìéê*•¦8q2¸ˆß¹ğZS—c!5¢./oÜï>016¿z­Ù]P[>â§	ñÜü‰i—ºëËB47ã­D‡HÎ‚Y%ÊŠÅ*ƒ…!)÷p‚““ªY×<J	ÁÊ®+W§Y
+Q@Å@0I ›\ºrqòûS†'fæo6[pt)ğØ$”€Äú#/=ş•£‡<\¸İª·ŠùÊ@ßÃ>ÒŒs—RÀ­F¢ -ÈIÜ ÙD4…`­Šù¬ ¨Ş¬#jÙRFxA…Ab	—HµrÂ¤É<9µE•ğ¹T8Ìê0`‚Z%¢…1Æb+-OP ]_ßJW7Œ®sÇ*†aØJBÄŸ<X¾y¨zv ï€ĞÚÉ¹Kë3­ÆìŸüñ_VºFzz‹ğ˜[¹áƒ!kĞm<ÈZÏ©\Y]ØÚÚIÄ}÷ÁüÃ¸9óşW9¯«w ëpnán¥R!åår­8±Y«oBîb§[•öPÎÂ9³ËLÙdÈŒjÙßGª‘v9*8¤à;åå¨¶Q]3(q\ŠHŒ ´Nã–Úu}ô¤ÌïNsÎ4Y:£3¾f¸êè¬üAXe8ïÚ4òí†a
+ØÑ'Šeš
+OÀ'm¬Ì­¶zí©V@0€H×•33wïÏ|Ì«ÛV*#Ø‰[iÓh°'lÕ8‘‚„¡¢>¤íyKïj4Âú§7¨[ßnlz´\(TÜ‡t9Ö-äØâ2&"Óx:8qxjğ©;7çßüğ5–Ã=å‘ÿğgÿşø±ã7nRK×E[Á@”Lï=¸sxâé3‡^¸ûàÁììU­à›İÂ ğM?uhüp-n\»vEÈØã9{ µ8çüŞGQ¾‘€ Oˆ]ÏKq¦D¢œ æ
+@*beS´æidC3ğKk­e İ¡@LsÒÎ¶úZr·´Ğ&Jâf«à0À‚—­olÿì¯ÿvuyuxhâG?9îq.Z	œdT Ô”>¸*&ĞÀ•™ì¡f:¡q˜0ŠGú,Îİˆ[ &Ş‘éJ"ç&ğK€G o™®=\`iG¥,m*Â€Æ"áz’È8$DKµ}ûÆ¥‹WŞŒn
+9W*ûy/‘›œñV£7ÃÑÁƒA¾‡ªŞ¨n®ÇQ«ypüT©’_Z\¢E0Òpµ€ñ`¾RIƒ‰n…µ•¥…‘á‘Jw~QV£¶YÃøèÔÙÁñÁêÒÜvuİóİØ¨W7‡û”l®.Q¤Ò^qrà€Pa­¶©€§‹Îzu½%…
+qˆÓh¤„êVRÿèÓw»z{}îÙ?ùñO~şúÿÕÜ®K9‚Ü(LçÜ‚´M3¬4†Î¦ä£¡Ã®:£W{®P[—¶í•YßBBLx+Nh¾Tö|Ï`cçƒœRM¬tä×ƒ„–2æ¹ÁvsãÆƒk¯œ>ğGô½ß¼-,Ì¸¹ ¿wì…3?ÜRË¯ıúÿƒ(X(u;, `c¼èòø%õıû¦F—NL?ÕúQó“Ko–Ê½É>}zl|ğâWn}¨l30ƒCŒu=ÿÌKcÃk÷Fu3\ÃÍÄ4*¨²Jì"pÛ€ÊĞÜÂü'W/¾rş'?}é¿}7Wy¸t3Öi+9úİ³¯`Ì/\|kem%(Q3Á™-V©Ô××;>PyúØóéb8ï¡2¥ÚÅ%"}ƒh1¨Ñ,1µ51ÔÊ ÓÈ‚   ç§Œº 5cã½'œX\^ÊRéŠ¤2-æóõVN%@æ0 *½zRï*•òÌ­tõ½Í¤ã=ê À—s]p5–Ï³ÁíÆF¾»›jk‘ã~#¥g9Ô|îôÍúæı¥›AŞ=2yöäá4r1s»º¶ãåT ×iwa3ç€Ôåƒ¾‚Ó£L‹ÁùÒ-Êew)·±±yíêÛ?xé/ÿäÇ/»N¸¹Vƒ+448øüó/4UøÆ»¿]oÕ·ë3ï¼ôÂ‘ñÁék3onU7›ÍˆÑSÓ/Ãçõ·>ˆã÷™Ìl=Œd³ic4I¢Kw>2ÌF®Í|ºµ½Şh6®ÜŸ<SÌU.ü®;¶êÿöµK/O¿tî{q£YkÌùÅàÌégô]¿w}}m˜q¤—Ï:ª§²	„’¤Òq„áÍŸ~Œxí»ç_I_ù÷o¾ÿ†H[aÜ=wâ™Z£úéµ’´a›Ñ±jËc¶åM§,°3¾şA_ú‹ƒ³ğ¬^µ•˜²BŞöÌ uÄE”2È‹ûzG^ùî'ú§=æôõ“œXXºŸòÏ{ñ©ÃgË¼RèvzGŠ³ów7«kp¿>|plxdzúè‰§0R7f/­®.>ûìóçO¿Ø_*Šã##~Ñ[ßZoFMH“ëõí œœ>>4625yäÄ©Sc£#Õ­ÕK×?ªÕ7\Ÿëv}1P,Ãûz†¦†8Õ3ÔûôSÏ=~øÆ—ïÜ¿Í8q}Ww#Úu°Hì²VÕ‡‡¦OMLš8|òÄéc“Çší÷?yóÚ­O¨—h’*©9††Ç`œ804:ÜUé*:¥|É/÷§&?;ŞĞñ½¡¾R·»¶¾š$:Èå¤L2‡Ú×3üÒ‹¯;x<Os…®ÂÉÉC“GN:İU(½ÿÑ[^z÷ğ±©W¿ó£‘‰²×İÕ[î(­¬¯†a"µã²òè ìÜ¡ƒ“Ó¬Tús¼ä	ğ±c§<Ú[©t•‹]¹zc;NÓ©©©å‰\O.LÃÙ´Ccı‡§§LO>ŞÓ;$#Sò=]¥®¡`uc¡•F„q¸”…\éìÓçN¶Çî*UÊ=ÅµÚ
+¸#S§ôMu­¤v÷ŞiôĞPïôô‘CcÇM?tøç;7f//¬ÜCÀK%:Úëö~pëõÕêÃX6¨C>Áˆy÷ãØVÓ®¸kCõ”|HãlòÀÁ’S¸vÿ“ù…{©jÊÁñ©3À¡/^y{}k.(ØÖ¼F³µÕÚ>zôÈÄÁ±ƒã‡N:=<:vçáµ·/üb«Q}úìóß}ú§ –À8û{ú†º×7Ö(õÿİOşÃôğ‰’S„Gnúéõ">}ìÙS‡OC*òpaaòà¡W¿¯¯`/Š›v’²P¸ıÒ±îŒ\íq¬Ú±cÏnW‚\XEV‹b÷»Ê}««Õ¥õE)ãå­ùÅµ9øÇ‘¡Q¢Ù…Ùz´ŞH×WÖç¶ë[‹‹KSºÅñÌìİw.şræşõX´††‡ì<œ›]^^:­6×W6ì²KêÛÕµ•Åµê
+³Çdecù½ŞşäÊÖ÷ˆÉ´.ˆUğ¡œp2‘ŒnÍŞIR‘&ªZÛ¸zíÒÛ—£´áx”X‹B	=¡Ó4J·76—¬Ş¯nnQä åZÛZ¾5{åÂÇoÏÜ¿A=Hç¢Ê(TÛj6ê-ˆİ‘lÍÌİ¹|ı“•ú|"›	jÅ²%pµÅµ­ÕÔ„õ°º°2/Ãq¥s,IäÔíïlÖê³³÷jÍ­–Œ!W>ºôöÍ[ŸJÔêîë*x•f-š_Ot›ÖâÚ2dQªVÖ6êÑ6¡$EòîÌİ/_Şnm»²Z[Ê*­¬.oÔÖ#¹½¼:ˆB9ŞÜŞÔTÅ2†,a~åîfc©Ö€!4£ğæ­7n]©…©h†zãáòL,Ê¬E1ª·§i²°´¼UßÜ
+7–7çS ŠšÕ·Ã„lÏ¯ÎÖÍÅ•Å¥Õå(…#°»tqöí}ûá¥PÔEn‡²!\m.\¹ó‘@Eb‰bÌÉÊæÂÍû"–«ÍŸi<eJZ¶ùÃÁBÁw‰ºª]»şiªê†¥QÒPTŞ{xëÎƒ+
+…N`kRS#WÖ—×nø×¶6.^¿øñ•··Ã©e¹k°ì,¯¬Í¯>T:m&µ{÷f÷G'jkùµ9ø%„¢ş`şşÒÊb3iå/å5`™© éüÚÂüÒC%“Ì@à‘É#ëÀUg|C÷?ıçvÎÂ¿®Úíı¶òÛê’»¬Ÿ„(L%‰CóId-ÿ8Ã‰iRGŠ(*yE#İ0”^Rî–¡
+jb’Æ’ V,U!e	fFjÍ¨g…"ì;yLq¢ZŠ¶ˆc3n*İ"D¹Ô ®’$	£;¨P
+„Ò4ô<nÍœì"5ÖşĞ«7c×É!Æ<D„c.¼‹Ò–’1@Œ´u@æÌ’5[Z&,ŠÈ‘Í¨F´	€ˆÙÉ?!qìø.‘<®+"½ _X¶’ºÀ3È÷¥Ò8·K)fU™¬]ÔŠ]«¤’œç‹XÁ
+¹nj„‰!á`Ã°L¦â|À1a"\Òe$‘&â.œ¬4Õ‘ŸsãN&¼t*ë€KI`}‡=@‹–Œœ_IÒ˜ãù&„§ÈóradÍJ#RØÚEcàxç#åˆDr8§ÌQ&%<R8±JWÚzi&Q³ø¢:a¾“¢¦Á¡Õ-Ô¾Q¬

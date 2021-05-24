@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box
+        {
+            width: 150px;
+            height: 150px;
+            box-shadow: 0px 0px 10px black;
+            border: 2px groove black;
+            float: left;
+            margin: 5px;
+            transition: 1.5s;
+            background-image: url(jpg-4-1.jpg);
+
+        }
+        .box:nth-child(1):hover
+        {
+            transform: scale(1.5);
+        }
+        .box:nth-child(2):hover
+        {
+            transform: translateX(100px);
+        }
+
+        .box:nth-child(3):hover
+        {
+            transform: translateX(-100px);
+        }
+
+        .box:nth-child(4):hover
+        {
+            transform: translate(100px);
+        }
+
+        .box:nth-child(5):hover
+        {
+            transform: translateY(-100px);
+        }
+
+        .box:nth-child(6):hover
+        {
+            transform: rotate(200deg);
+        }
+
+        .box:nth-child(7):hover
+        {
+            transform: scale(1.5);
+        }
+        .child {
+            width: 200px;
+            height: 200px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: 1.5s;
+            background-image:  url(wc.jpg);
+        }
+
+        .child:hover{
+            transform: scale(1.2);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box">1</div>
+
+   <div class="box">2</div>
+   <div class="box">3</div>
+   <div class="box">4</div>
+   <div class="box">5</div>
+   <div class="box">6</div>
+   <div class="box">7</div>
+   <div class="box">8</div>
+    
+</body>
+</html>

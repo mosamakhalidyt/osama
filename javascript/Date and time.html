@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var date = new Date();
+            document.write (date+"<br>")
+            
+            var date2 = new Date (1991,2,06,01,30,30,0 );
+            document.write(date2 +"<br>"); 
+            
+            var date3 = new Date(1991,2,06);
+            document.write(date3 +"<br>"); 
+            
+            var date4 = new Date (0640000)
+            document.write(date4 +"<br>")
+            
+            d = new Date ();
+            d = d.toString();
+            document.write(d +"<br>")
+            
+            x = new Date();
+            x = x.toDateString();
+            document.write(x +"<br>") 
+            
+            a = new Date();
+            a = a.toUTCString();
+            document.write(a +"<br>");
+            
+            c = new Date();
+            c = c.toLocaleTimeString();
+            document.write(c +"<br>")
+            
+            var o = new Date();
+           var o = o.getDate();
+           document.write(o +"<br>");
+
+           var d = new Date();
+           var month = d.getMonth()+1;
+           document.write(month +"<br>");
+
+           var dat = new Date();
+           var year = date.getFullYear();
+           document.write(year +"<br>")
+
+           var da = new Date();
+           var day = da.getDay()+1 ;
+           document.write(day +"<br>");
+
+           var time = new Date();
+           var hour = time.getHours();
+           document.write(hour)
+
+
+
+
+
+            var time2 = new Date();
+            var hour2 = time2.getHours();
+            
+            if(hour2 < 12) {
+                so = "AM"
+            }
+            else
+            
+                (so="PM")
+            
+            document.write(hour2 +""  + so +"<br>");
+
+
+
+
+
+
+             var ti = new Date();
+             var ho = ti.getHours();
+             if(ho < 12)
+             {
+                 sort = "AM";
+                }
+                else(sort="PM")
+                
+                if(ho>12)
+                {
+                    ho=ho-12;
+                }
+                document.write(ho +""+ sort +"<br>");
+
+
+                var tim = new Date();
+                var minute = tim.getMinutes();
+                if(minute < 10)
+                {
+                    minute = "0" + minute
+                }
+
+                document.write(minute +"<br>")
+
+                var tm = new Date ();
+                var second = tm.getSeconds();
+                if(second < 10)
+                {
+                    second ="0" + second
+                }
+                document.write(second +"<br>")
+
+
+
+                var date5 = new Date ();
+                var milisecond = date5.getMilliseconds();
+                document.write(milisecond)
+
+
+                
+            </script>
+
+            
+
+</body>
+</html>

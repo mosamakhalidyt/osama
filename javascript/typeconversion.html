@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="ctype1"></p>
+    <p id="ctype2"></p>
+    <p id="ctype3"></p>
+    <p id="ctype4"></p>
+    <p id="ctype5"></p>
+    <p id="ctype6"></p>
+    <p id="ctype7"></p>
+    <p id="ctype8"></p>
+    <p id="ctype9"></p>
+    <p id="ctype10"></p>
+    <script>
+        document.getElementById("ctype1").innerHTML= typeof "danish";
+        document.getElementById("ctype2").innerHTML= typeof 3.14;
+        document.getElementById("ctype3").innerHTML= typeof NaN;
+        document.getElementById("ctype4").innerHTML= typeof false;
+        document.getElementById("ctype5").innerHTML= typeof [1,2,3,4];
+        document.getElementById("ctype6").innerHTML= typeof {name:"john", age:"34"};
+        document.getElementById("ctype7").innerHTML= typeof new Date();
+        document.getElementById("ctype8").innerHTML= typeof function(){};
+        document.getElementById("ctype9").innerHTML= typeof myCar;
+        document.getElementById("ctype10").innerHTML= typeof null;
+    </script>
+</body>
+</html>

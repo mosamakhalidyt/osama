@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <style>
+        *
+        {
+            margin: auto;
+        }
+		
+		.container
+		{
+			width: 1650px;
+			height: 1000px;
+		}
+        body
+        {
+            background-color: rgb(63, 53, 53);
+        }
+        nav {
+            width: 1650px;
+            height: 100px;
+            background-color: rgb(54, 40, 40);
+            box-shadow: 0px 0px 10px black;
+        }
+
+        nav ul {
+            
+            float: right;
+            margin-top: 30px;
+            margin-right: 400px;
+        }
+
+        nav ul li {
+            
+            list-style: none;
+            float: left;
+            margin: 5px;
+        }
+        
+        nav ul li a {
+           
+            text-decoration: none;
+            color: black;
+            transition: (1.5s);
+        }
+        
+        nav ul li a:hover {
+            
+            color: white;
+            background: tomato;
+            font-size: 30px;
+            letter-spacing: 2px;
+            padding: 5px;
+            border-radius: 100px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 60px;
+            float: left;
+            background-image: url();
+            
+            background-repeat: no-repeat;
+            background-size: contain;
+            float: left;
+            position: relative;
+            bottom: 10px;
+            
+        }
+        h1
+        {
+            color: white;
+            margin-left: 10px;
+            font-size: 30px;
+            font-family: fantasy;
+            position: relative;
+            top: 20px;
+        }
+        .all
+        {
+            color: orangered;
+            font-size: 20px;
+            font-family: fantasy;
+            position: relative;
+            left: 100px;
+            bottom: 15px;
+            
+        }
+        .mess
+        {
+            color: orangered;
+            font-size: 20px;
+            font-family: fantasy;
+            position: relative;
+            bottom:19px;
+            left: 100px;
+            
+        }
+        .slider
+        {
+           
+            width: 1200px;
+            height: 500px;
+            float: left;
+        }
+
+        .boxes {
+            width: 1650px;
+            height: 600px;
+            float: left;
+        }
+        
+        .box {
+            width: 400px;
+            height: 400px;
+            background-color: black;
+            float: left;
+            margin: 5px;
+        }
+        
+        .head
+        {
+            color:red;
+            
+        }
+         p
+         {
+             float: left;
+             color: white;
+             text-align: justify;
+         }
+         button
+         {
+            width: 100px;
+            height: 50px;
+             background: gray;
+             position: relative;
+             left: 10px;
+             border-radius: 100px;
+             /* margin: 0;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%); */
+
+         }
+         button:hover {
+            
+            color: white;
+            background: tomato;
+            font-size: 10px;
+            letter-spacing: 2px;
+            padding: 5px; 
+
+        }
+        .one
+        {
+            margin-left: 5px;
+            font-size: 30px;
+            color: white;
+            position: relative;
+            left: -160px;
+            top: 190px;
+        }
+
+        .it
+        {
+            color: tomato;
+            font-size: 30px;
+            position: relative;
+            bottom: -150px;
+            
+        }
+
+        .big
+        {
+            float: left;
+            position: relative;
+            left: px;
+            top: 190px;
+        }
+
+        .bun
+        {  
+            margin: 50px;
+            color:white;
+            position: relative;
+            left: -90px;
+            top: 180px;
+            
+        }
+        .bun:hover {
+            
+            color: white;
+            background: tomato;
+            font-size: 10px;
+            letter-spacing: 2px;
+            padding: 5px;
+            border-radius: 50px;
+        }
+
+
+       img
+        {
+        float: left;
+        
+        }
+
+
+        .lorem
+        {
+            float: left;
+        }
+
+        .what
+        {
+            width: 450px;
+            height: 250px;
+            background-color: tomato;
+            position: relative;
+            left: 825px;
+            top: -500px;
+
+        }
+
+        .special
+        {
+            width: 450px;
+            height: 250px;
+            background-color: black;
+            position: relative;
+            left: 825px;
+            top: -500px;  
+        }
+
+        .a
+        {
+            
+            font-size: 50px;
+            color: white;
+            text-decoration: none;
+            position: relative;
+            top: 30px;
+            font-family: fantasy;
+            margin-left: 50px;
+    
+            
+        }
+         span
+         {
+             margin-left:40px;
+             position: relative;
+             top: 60px;
+         }
+         .ws
+         {
+             color: black;
+             margin-left: 25px;
+             position: relative;
+             top: 60px;
+         }
+
+         .bg
+         {
+             margin: 5px;
+            text-decoration: none;
+             list-style: none;
+         }
+
+         ul li ul a{
+             position: relative;
+             top: 12px;
+             right: 10px;
+             line-height: 1.6;
+            text-decoration: none;
+            margin-left: 20px;
+            color: rgb(68, 67, 67);
+         }
+
+         ul li ul h1 
+         {
+             font-family: monospace;
+         }
+
+    </style>
+</head>
+<link rel="stylesheet" type="text/css" href="F:\osama\osama\icon\fontawesome-free-5.14.0-web\css\all.css">
+
+<body>
+   <div class="container">
+   	 <nav>
+        <div class="logo">
+             <h1 class="h1">SPORT</h1>
+            <div class="all">All The Sport</div>
+            <div class="mess">Messenger</div>
+        </div>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"> Home </i></a></li>
+            <li><a href="#"><i class="fa fa-image"> Gallery</i></a></li>
+            <li><a href="#"><i class="fas fa-info-circle"> About </i></a></li>
+            <li><a href="#"><i class="fas fa-id-card-alt"> Contact</i></a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt"> Location</i></a></li>
+        </ul>
+    </nav>
+
+<div class="slider">
+
+
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+    <div class="ws_images"><ul>
+            <li><a href="http://wowslider.net"><img src="data1/images/slider.jpg" alt="css slideshow" title="Slider" id="wows1_0"/></a></li>
+            <li><img src="data1/images/slider2.jpg" alt="slider2" title="slider2" id="wows1_1"/></li>
+        </ul></div>
+        <div class="ws_bullets"><div>
+            <a href="#" title="Slider"><span><img src="data1/tooltips/slider.jpg" alt="Slider"/>1</span></a>
+            <a href="#" title="slider2"><span><img src="data1/tooltips/slider2.jpg" alt="slider2"/>2</span></a>
+        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery image carousel</a> by WOWSlider.com v9.0</div>
+    <div class="ws_shadow"></div>
+    </div>	
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <!-- End WOWSlider.com BODY section -->
+
+
+    <div class="new">
+        <div class="what" ><a href="#" class="a" > <span class="ws" >WHAT'T</span> <span style="color: black;"> NEW? </span></a></div>
+        <div class="special"><a href="#" class="a" style="margin-left: 70px; position: relative; top: 90px;"> SPECIAL <span style="position: relative; top: 1px;">NEWS</span></a></div>
+    </div>
+    </div>
+     
+
+        
+        <div style="width: 1650px; height: 180px; background-color: rgb(41, 41, 41); margin-top: 5px; float: left; border-top: 8px solid tomato; " >
+
+        <div style="background: white; width: 60px; height: 60px; border-radius: 50px; position: relative; top:  40px; right: 600px;">
+        <span style="font-size: 50px; position: relative; top: -1px; left:-20px;">1</span>
+        <h1 style="position: relative; top: -45px; left: 60px; font-family: 'Secular One', sans-serif;">MAURIS <span style="position: relative; top: -35px; left: 80px;">ACCUMSAN</span></h1>
+
+        <p style="color: rgb(114, 113, 113); position: relative; top: -85px; left: 70px; font-size: large;">Eiusmod <span style="position: relative; top: -22px; left: 27px; ">temporincididunt</span> <span style="position: relative; position: relative; top: -40px; left: 213px;">ut</span> <span style="position: relative; position: relative; top: -42px; left: 95px;">laboreet</span></p>
+
+        A
+        <button style="position: relative; top: -165px; left: 55px; background: none; border: none; color: tomato;">Read More</button>
+
+        </div>
+
+
+        <div style="background: white; width: 60px; height: 60px; border-radius: 50px; position: relative; top: -20px; left: -100px; ">
+        <span style="font-size: 50px; position: relative; top: -1px; left:-20px;">2</span>
+        <h1 style="font-family: 'Secular One', sans-serif; position: relative; top: -120px; left: 60px;">PROIN <span style="position: relative; top: -35px; left: 60px;">DICTUM</span></h1>
+        
+        <p style="color: rgb(114, 113, 113); position: relative; top: -160px; left: 70px; font-size: large;">Eiusmod <span style="position: relative; top: -22px; left: 27px; ">temporincididunt</span> <span style="position: relative; position: relative; top: -40px; left: 213px;">ut</span> <span style="position: relative; position: relative; top: -42px; left: 95px;">laboreet</span></p>
+
+        <button style="position: relative; top: -220px; left: 55px; background: none; border: none; color: tomato;">Read More</button>
+
+        </div>
+
+
+        <div style="background: white; width: 60px; height: 60px; border-radius: 50px; position: relative; top: -80px; left: 300px;"><span style="font-size: 50px; position: relative; top: -70px; left:-20px;">3</span>
+        <h1 style="font-family: 'Secular One', sans-serif; position: relative; top: -190px; left: 60px;">PELLENTE <span style="position: relative; top: -35px; left: 120px;">SQUESED</span></h1>
+
+
+        <p style="color: rgb(114, 113, 113); position: relative; top: -230px; left: 70px; font-size: large;">Eiusmod <span style="position: relative; top: -22px; left: 27px; ">temporincididunt</span> <span style="position: relative; position: relative; top: -40px; left: 213px;">ut</span> <span style="position: relative; position: relative; top: -42px; left: 95px;">laboreet</span></p>
+
+        
+        <button style="position: relative; top: -290px; left: 55px; background: none; border: none; color: tomato;">Read More</button>
+        </div>
+
+        </div>
+
+
+
+    <div class="boxes">
+        <h1 style="font-family: monospace; position: relative; top: -5px; margin-top: 40px;">HOT NEWS</h1> <hr style="margin: 10px;">
+        
+        <div class="box"><img src="img/gym.jpg" alt=""> <h1 class="head" style="font-family: monospace; position: relative; top: 5px; margin: 5px;">Massa as laoreet</h1> <p style="margin:10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati labore doloremque repellat culpa voluptatum dolorum deleniti atque inventore quas magni, fugiat, aperiam odit? Nulla praesentium temporibus fugiat excepturi repellat aliquam? 
+        </p><button>More</button></div>
+        <div class="box"><img src="img/cycle.jpg" alt=""> <h1 class="head" style="font-family: monospace; position: relative; top: 5px;">Lorem ipsum est</h1>  <p style="margin: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati labore doloremque repellat culpa voluptatum dolorum deleniti atque inventore quas magni, fugiat, aperiam odit? Nulla praesentium temporibus fugiat excepturi repellat aliquam?
+        </p><button>More</button></div>
+        <div class="box"><img src="img/sea.jpg" alt=""> <h1 class="head" style="font-family: monospace; position: relative; top: 5px;">Dolore massa</h1>  <p style="margin: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati labore doloremque repellat culpa voluptatum dolorum deleniti atque inventore quas magni, fugiat, aperiam odit? Nulla praesentium temporibus fugiat excepturi repellat aliquam?
+        </p><button>More</button></div>
+        <div class="box"><img src="img/ground.jpg" alt=""> <h1 class="head" style="font-family: monospace; position: relative; top: 5px;">Magna ut dolore</h1>  <p style="margin: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati labore doloremque repellat culpa voluptatum dolorum deleniti atque inventore quas magni, fugiat, aperiam odit? Nulla praesentium temporibus fugiat excepturi repellat aliquam?
+        </p><button>More</button></div> 
+        <hr style="width: 1650px; position: relative; top: 220px; "> 
+    </div> 
+    
+    
+        <div style="width: 1650px; clear: both;"> <p class="it">&ldquo; IT'S YOUR</p> <p class="one">ONE STOP SITE WITH A HUGE SOURCE OF UP-TO-DATE WORLDWIDE SPORTING NEWS."</p> <p class="big" style="width: 1350px; clear: both;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa praesentium maiores, officiis in architecto quisquam amet, quae cupiditate debitis         veritatis eius iste impedit alias quidem autem eveniet, corrupti fugiat magni?
+            Hic consectetur cum deleniti aliquam quisquam officia voluptate, eos cumque! Ipsa voluptas dolorum odit illum quibusdam corrupti qui non perferendis, maxime ea ducimus aliquam officiis dolorem omnis commodi minus dignissimos!
+            Dolorum facilis nesciunt distinctio. Vel minima cum porro tempora dolor quam doloremque deserunt aliquam, placeat, temporibus animi cupiditate ex odio non magnam voluptatum quibusdam voluptates obcaecati. Quod cum officiis earum!</p><button class="bun">Read more</button></div>
+
+
+        <div style="width: 700px; ">
+        <h1 style="position: relative; top: 90px; font-family: monospace; position: relative; right:490px; top: 210px;">DID YOU KNOW?</h1>
+        <img src="img/man.jpg" alt="" style="float: left; position: relative; top: 220px; right: 480px;"> <p class="lorem" style="float:inherit ; position: relative; top: 220px; right: 470px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ab dolores impedit cupiditate! Aspernatur mollitia, voluptatem, laudantium quasi asperiores optio architecto ad 
